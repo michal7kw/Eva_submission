@@ -1,0 +1,27 @@
+SES Consensus Overlap Analysis - Graphical Summary
+==================================================
+
+Analysis Date: 2026-03-03
+Total SES Consensus Peaks: 44726
+NOTE: TESmut samples excluded from analysis (failed sample)
+
+Key Findings:
+
+1. OVERLAP PERCENTAGES:
+   - TES samples: 33.2% ± 2.0% (narrow)
+   - TEAD1 samples: 40.4% ± 2.0% (narrow)
+
+2. SES COVERAGE:
+   - Highest coverage by TEAD1 peaks: 22.7%
+
+3. PEAK TYPE COMPARISON:
+   - Broad peaks generally show higher SES coverage than narrow peaks
+
+Generated plots:
+   - overlap_percentage_barplots.pdf: Bar plots of overlap percentages
+   - ses_coverage_barplots.pdf: Bar plots of SES coverage
+   - overlap_vs_coverage_scatter.pdf: Scatter plot of overlap vs coverage
+   - overlap_heatmap.pdf: Heatmap of overlap percentages
+   - group_comparison_boxplots.pdf: Box plots comparing groups
+   - absolute_overlap_numbers.pdf: Absolute numbers of overlapping peaks
+

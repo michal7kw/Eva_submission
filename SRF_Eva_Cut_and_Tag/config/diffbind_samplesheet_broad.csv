@@ -1,0 +1,7 @@
+SampleID,Tissue,Factor,Condition,Replicate,bamReads,ControlID,bamControl,Peaks,PeakCaller
+TES-1,SNB19,TES,TES,1,results/04_filtered/TES-1_filtered.bam,IggMs,results/04_filtered/IggMs_filtered.bam,results/05_peaks_broad/TES-1_peaks.broadPeak,macs
+TES-2,SNB19,TES,TES,2,results/04_filtered/TES-2_filtered.bam,IggMs,results/04_filtered/IggMs_filtered.bam,results/05_peaks_broad/TES-2_peaks.broadPeak,macs
+TES-3,SNB19,TES,TES,3,results/04_filtered/TES-3_filtered.bam,IggMs,results/04_filtered/IggMs_filtered.bam,results/05_peaks_broad/TES-3_peaks.broadPeak,macs
+TEAD1-1,SNB19,TEAD1,TEAD1,1,results/04_filtered/TEAD1-1_filtered.bam,IggRb,results/04_filtered/IggRb_filtered.bam,results/05_peaks_broad/TEAD1-1_peaks.broadPeak,macs
+TEAD1-2,SNB19,TEAD1,TEAD1,2,results/04_filtered/TEAD1-2_filtered.bam,IggRb,results/04_filtered/IggRb_filtered.bam,results/05_peaks_broad/TEAD1-2_peaks.broadPeak,macs
+TEAD1-3,SNB19,TEAD1,TEAD1,3,results/04_filtered/TEAD1-3_filtered.bam,IggRb,results/04_filtered/IggRb_filtered.bam,results/05_peaks_broad/TEAD1-3_peaks.broadPeak,macs

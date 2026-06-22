@@ -1,0 +1,63 @@
+===========================================
+Cut&Tag Pipeline Summary Statistics
+===========================================
+Date: $(date)
+Pipeline: Cut&Tag Analysis for TES/TEAD1
+===========================================
+
+SAMPLE GROUPS (TESmut excluded - failed sample):
+------------------------------------------------
+TES samples (Active): TES-1, TES-2, TES-3
+TEAD1 samples (Reference): TEAD1-1, TEAD1-2, TEAD1-3
+IgG Controls: IggMs (TES), IggRb (TEAD1)
+
+KEY METRICS TO CHECK:
+--------------------
+1. Sequencing Quality:
+   - Per base sequence quality >30
+   - Adapter contamination <5%
+
+2. Alignment Metrics:
+   - Alignment rate >80%
+   - Properly paired reads >75%
+   - Duplicate rate <30% (typical for Cut&Tag)
+
+3. Peak Calling:
+   - TES peaks: Expected similar count to TEAD1
+   - Peak overlap TES/TEAD1: Expected >50%
+
+QUALITY CHECKPOINTS:
+-------------------
+[ ] Raw read quality (FastQC)
+
+[ ] Alignment rates (Bowtie2)
+    TES-1: 55.02%
+    TES-2: 42.24%
+    TES-3: 73.00%
+    TEAD1-1: 23.66%
+    TEAD1-2: 13.80%
+    TEAD1-3: 28.57%
+    IggMs: 16.91%
+    IggRb: 42.09%
+
+[ ] Peak counts (MACS2)
+    TES: 20204 peaks
+    TEAD1: 21712 peaks
+
+[ ] Consensus Peak Statistics (Improved Pipeline)
+    TES consensus (quality-scored): 17796 peaks
+    TES IDR union (reproducible): 0 peaks
+    TEAD1 consensus (quality-scored): 11163 peaks
+    TEAD1 IDR union (reproducible): 0 peaks
+
+[ ] IDR Reproducibility Statistics
+    TES:
+
+Peak Calling Results:
+    TEAD1:
+
+Peak Calling Results:
+
+===========================================
+Report generated: Mon Dec  8 01:34:11 PM CET 2025
+===========================================

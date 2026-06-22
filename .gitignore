@@ -1,0 +1,87 @@
+# ==========================
+# System & IDE
+# ==========================
+.DS_Store
+.vscode/
+.idea/
+.claude/
+__pycache__/
+*.pyc
+
+# ==========================
+# Sequencing alignment files (huge)
+# ==========================
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# ==========================
+# Coverage tracks (large)
+# ==========================
+*.bw
+*.bigwig
+*.bigWig
+*.bedgraph
+*.bedGraph
+
+# ==========================
+# Raw sequencing data
+# ==========================
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# ==========================
+# HDF5 / serialized data
+# ==========================
+*.h5
+*.h5ad
+*.h5seurat
+*.hdf5
+*.rds
+*.RData
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# ==========================
+# Annotation / reference data
+# ==========================
+*.gtf
+*.gff
+*.gff3
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+
+# ==========================
+# Logs / tmp
+# ==========================
+*.log
+logs/
+tmp/
+Archive/
+Legacy/
+.*
+
+# ==========================
+# Markdown — kept on local disk only
+# ==========================
+*.md
+
+# ==========================
+# Large analysis matrices (>= 50 MB)
+# ==========================
+SRF_Eva_Cut_and_Tag/results/07_analysis_narrow/*_matrix.gz
+
+# STAR gene counts (data, materialized from former symlinks)
+*.tab
+
+*.pdf
+# Serena MCP project metadata (local only)
+.serena/

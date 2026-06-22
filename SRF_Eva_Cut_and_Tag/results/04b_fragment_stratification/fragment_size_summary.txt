@@ -1,0 +1,8 @@
+Sample                 Total SubNuc(<120)      MonoNuc     MultiNuc SubNuc_Pct
+------                 ----- ------------     --------     -------- ----------
+TES-1                      0            0            0            0       0.0%
+TES-2                      0            0            0            0       0.0%
+TES-3                      0            0            0            0       0.0%
+TEAD1-1                    0            0            0            0       0.0%
+TEAD1-2                    0            0            0            0       0.0%
+TEAD1-3                    0            0            0            0       0.0%

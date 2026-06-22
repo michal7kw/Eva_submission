@@ -1,0 +1,8 @@
+Sample: TES-2_peaks.narrowPeak
+Peak Type: narrow_replicate
+Total TES-2_peaks.narrowPeak peaks: 193855
+TES-2_peaks.narrowPeak peaks overlapping SES: 0
+Percentage of TES-2_peaks.narrowPeak peaks overlapping SES: 0%
+SES peaks overlapped by TES-2_peaks.narrowPeak: 0
+Total SES consensus peaks: 
+Percentage of SES peaks covered by TES-2_peaks.narrowPeak: 0%

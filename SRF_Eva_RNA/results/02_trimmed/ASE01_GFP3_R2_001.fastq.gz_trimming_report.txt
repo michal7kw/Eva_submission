@@ -1,0 +1,207 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /beegfs/scratch/ric.sessa/kubacki.michal/download/TES_RNA/TES/ASE01_GFP3/ASE01_GFP3_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.1
+Python version: 3.12.10
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 237). Second best hit was Nextera (count: 13)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 5.1 with Python 3.12.10
+Command line parameters: -j 4 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC /beegfs/scratch/ric.sessa/kubacki.michal/download/TES_RNA/TES/ASE01_GFP3/ASE01_GFP3_R2_001.fastq.gz
+Processing single-end reads on 4 cores ...
+
+=== Summary ===
+
+Total reads processed:              33,796,701
+Reads with adapters:                   441,611 (1.3%)
+Reads written (passing filters):    33,796,701 (100.0%)
+
+Total basepairs processed: 4,901,558,433 bp
+Quality-trimmed:              12,622,391 bp (0.3%)
+Total written (filtered):  4,885,971,503 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 441611 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 29.0%
+  C: 28.7%
+  G: 27.1%
+  T: 15.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	320767	528073.5	0	320767
+4	52859	132018.4	0	52859
+5	15584	33004.6	0	15584
+6	2497	8251.1	0	2497
+7	1390	2062.8	0	1390
+8	2861	515.7	0	2861
+9	351	128.9	0	104 247
+10	427	32.2	1	37 390
+11	461	8.1	1	63 398
+12	291	2.0	1	39 252
+13	239	0.5	1	43 196
+14	696	0.5	1	55 641
+15	421	0.5	1	42 379
+16	720	0.5	1	64 656
+17	1700	0.5	1	268 1432
+18	587	0.5	1	105 482
+19	2652	0.5	1	504 2148
+20	591	0.5	1	104 487
+21	244	0.5	1	70 174
+22	677	0.5	1	172 505
+23	1304	0.5	1	363 941
+24	5326	0.5	1	1800 3526
+25	1375	0.5	1	493 882
+26	1832	0.5	1	606 1226
+27	533	0.5	1	155 378
+28	1306	0.5	1	527 779
+29	209	0.5	1	56 153
+30	549	0.5	1	180 369
+31	471	0.5	1	110 361
+32	1216	0.5	1	377 839
+33	856	0.5	1	265 591
+34	1927	0.5	1	531 1396
+35	599	0.5	1	149 450
+36	1040	0.5	1	333 707
+37	534	0.5	1	150 384
+38	1724	0.5	1	594 1130
+39	395	0.5	1	124 271
+40	852	0.5	1	244 608
+41	182	0.5	1	55 127
+42	352	0.5	1	103 249
+43	553	0.5	1	152 401
+44	1247	0.5	1	423 824
+45	1881	0.5	1	588 1293
+46	170	0.5	1	41 129
+47	199	0.5	1	46 153
+48	112	0.5	1	20 92
+49	252	0.5	1	64 188
+50	277	0.5	1	78 199
+51	301	0.5	1	79 222
+52	373	0.5	1	115 258
+53	360	0.5	1	124 236
+54	550	0.5	1	159 391
+55	181	0.5	1	48 133
+56	303	0.5	1	93 210
+57	621	0.5	1	188 433
+58	202	0.5	1	41 161
+59	217	0.5	1	76 141
+60	353	0.5	1	106 247
+61	196	0.5	1	57 139
+62	259	0.5	1	77 182
+63	496	0.5	1	171 325
+64	213	0.5	1	59 154
+65	81	0.5	1	20 61
+66	116	0.5	1	34 82
+67	243	0.5	1	86 157
+68	83	0.5	1	23 60
+69	89	0.5	1	20 69
+70	137	0.5	1	39 98
+71	82	0.5	1	15 67
+72	70	0.5	1	18 52
+73	95	0.5	1	25 70
+74	85	0.5	1	23 62
+75	51	0.5	1	12 39
+76	41	0.5	1	11 30
+77	57	0.5	1	9 48
+78	73	0.5	1	21 52
+79	61	0.5	1	15 46
+80	73	0.5	1	17 56
+81	69	0.5	1	14 55
+82	57	0.5	1	21 36
+83	57	0.5	1	16 41
+84	53	0.5	1	11 42
+85	73	0.5	1	16 57
+86	43	0.5	1	10 33
+87	43	0.5	1	13 30
+88	47	0.5	1	8 39
+89	48	0.5	1	9 39
+90	37	0.5	1	8 29
+91	47	0.5	1	13 34
+92	51	0.5	1	10 41
+93	39	0.5	1	5 34
+94	48	0.5	1	8 40
+95	51	0.5	1	13 38
+96	38	0.5	1	4 34
+97	31	0.5	1	9 22
+98	40	0.5	1	1 39
+99	46	0.5	1	4 42
+100	45	0.5	1	6 39
+101	41	0.5	1	4 37
+102	50	0.5	1	10 40
+103	55	0.5	1	9 46
+104	37	0.5	1	10 27
+105	42	0.5	1	7 35
+106	33	0.5	1	7 26
+107	39	0.5	1	7 32
+108	27	0.5	1	2 25
+109	46	0.5	1	7 39
+110	36	0.5	1	4 32
+111	46	0.5	1	10 36
+112	30	0.5	1	3 27
+113	38	0.5	1	3 35
+114	28	0.5	1	4 24
+115	20	0.5	1	5 15
+116	31	0.5	1	4 27
+117	29	0.5	1	0 29
+118	23	0.5	1	3 20
+119	27	0.5	1	3 24
+120	34	0.5	1	1 33
+121	25	0.5	1	1 24
+122	36	0.5	1	1 35
+123	24	0.5	1	1 23
+124	18	0.5	1	2 16
+125	34	0.5	1	3 31
+126	38	0.5	1	1 37
+127	28	0.5	1	3 25
+128	26	0.5	1	2 24
+129	25	0.5	1	1 24
+130	16	0.5	1	3 13
+131	35	0.5	1	1 34
+132	14	0.5	1	0 14
+133	17	0.5	1	0 17
+134	31	0.5	1	0 31
+135	24	0.5	1	0 24
+136	23	0.5	1	0 23
+137	14	0.5	1	1 13
+138	6	0.5	1	0 6
+139	22	0.5	1	0 22
+140	14	0.5	1	0 14
+141	17	0.5	1	0 17
+142	8	0.5	1	0 8
+143	6	0.5	1	0 6
+144	6	0.5	1	0 6
+145	16	0.5	1	1 15
+146	4	0.5	1	0 4
+147	24	0.5	1	0 24
+148	13	0.5	1	0 13
+149	14	0.5	1	0 14
+150	8	0.5	1	1 7
+
+RUN STATISTICS FOR INPUT FILE: /beegfs/scratch/ric.sessa/kubacki.michal/download/TES_RNA/TES/ASE01_GFP3/ASE01_GFP3_R2_001.fastq.gz
+=============================================
+33796701 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 33796701
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 50352 (0.15%)

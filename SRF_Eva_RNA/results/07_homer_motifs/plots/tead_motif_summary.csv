@@ -1,0 +1,16 @@
+"condition","motif_name","consensus","log_pvalue","qvalue","target_pct","bg_pct","enrichment"
+"all_degs","TEAD1(TEAD)/HepG2-TEAD1-ChIP-Seq(Encode)/Homer","CYRCATTCCA",-23.25,0,84.8,82.66,2.14
+"all_degs","TEAD3(TEA)/HepG2-TEAD3-ChIP-Seq(Encode)/Homer","TRCATTCCAG",-21.76,0,88.66,86.82,1.84
+"all_degs","TEAD(TEA)/Fibroblast-PU.1-ChIP-Seq(Unpublished)/Homer","YCWGGAATGY",-18.48,0,71.53,69.21,2.32000000000001
+"all_degs","TEAD2(TEA)/Py2T-Tead2-ChIP-Seq(GSE55709)/Homer","CCWGGAATGY",-16.93,0,61.98,59.63,2.34999999999999
+"all_degs","TEAD4(TEA)/Tropoblast-Tead4-ChIP-Seq(GSE37350)/Homer","CCWGGAATGY",-14.26,0,79.37,77.57,1.80000000000001
+"upregulated","TEAD3(TEA)/HepG2-TEAD3-ChIP-Seq(Encode)/Homer","TRCATTCCAG",-2.231,0.2787,87.53,86.99,0.540000000000006
+"upregulated","TEAD1(TEAD)/HepG2-TEAD1-ChIP-Seq(Encode)/Homer","CYRCATTCCA",-1.445,0.4601,83.36,83.01,0.349999999999994
+"upregulated","TEAD2(TEA)/Py2T-Tead2-ChIP-Seq(GSE55709)/Homer","CCWGGAATGY",-1.168,0.5417,60.44,60.13,0.309999999999995
+"upregulated","TEAD4(TEA)/Tropoblast-Tead4-ChIP-Seq(GSE37350)/Homer","CCWGGAATGY",-0.5829,0.8293,78.09,78.16,-0.0699999999999932
+"upregulated","TEAD(TEA)/Fibroblast-PU.1-ChIP-Seq(Unpublished)/Homer","YCWGGAATGY",-0.4522,0.8838,69.03,69.22,-0.189999999999998
+"downregulated","TEAD(TEA)/Fibroblast-PU.1-ChIP-Seq(Unpublished)/Homer","YCWGGAATGY",-27.37,0,74.14,70.07,4.07000000000001
+"downregulated","TEAD1(TEAD)/HepG2-TEAD1-ChIP-Seq(Encode)/Homer","CYRCATTCCA",-22.67,0,86.31,83.36,2.95
+"downregulated","TEAD2(TEA)/Py2T-Tead2-ChIP-Seq(GSE55709)/Homer","CCWGGAATGY",-20.21,0,63.6,59.88,3.72
+"downregulated","TEAD4(TEA)/Tropoblast-Tead4-ChIP-Seq(GSE37350)/Homer","CCWGGAATGY",-19.8,0,80.71,77.62,3.08999999999999
+"downregulated","TEAD3(TEA)/HepG2-TEAD3-ChIP-Seq(Encode)/Homer","TRCATTCCAG",-17.35,0,89.85,87.61,2.23999999999999

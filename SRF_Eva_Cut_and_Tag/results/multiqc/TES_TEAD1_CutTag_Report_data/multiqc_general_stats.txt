@@ -1,0 +1,223 @@
+Sample	bowtie_2_hisat2-overall_alignment_rate	samtools_flagstat-flagstat_total	samtools_flagstat-mapped_passed	samtools_flagstat-mapped_passed_pct	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences	cutadapt-percent_trimmed	macs2-d	macs2-peak_count	picard_mark_duplicates-PERCENT_DUPLICATION
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | IggMs_R1_001.fastq.gz					88.90327384218814	52.0	150.0	150	36.36363636363637	71.369603				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | IggMs_R2_001.fastq.gz					89.76653309996436	53.0	150.0	150	27.27272727272727	71.369603				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | IggRb_R1_001.fastq.gz					91.1735093446575	52.0	150.0	150	36.36363636363637	64.522013				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | IggRb_R2_001.fastq.gz					91.88912353426046	52.0	150.0	150	27.27272727272727	64.522013				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TEAD1-1_R1_001.fastq.gz					94.59857763257233	52.0	150.0	150	36.36363636363637	237.691306				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TEAD1-1_R2_001.fastq.gz					95.09353023613326	53.0	150.0	150	27.27272727272727	237.691306				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TEAD1-2_R1_001.fastq.gz					91.03254575553731	51.0	150.0	150	36.36363636363637	68.939939				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TEAD1-2_R2_001.fastq.gz					91.89693338799663	52.0	150.0	150	27.27272727272727	68.939939				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TEAD1-3_R1_001.fastq.gz					92.29367377105007	50.0	150.0	150	36.36363636363637	74.74671599999999				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TEAD1-3_R2_001.fastq.gz					92.90216223335847	50.0	150.0	150	27.27272727272727	74.74671599999999				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TES-1_R1_001.fastq.gz					70.870411276873	51.0	150.0	150	36.36363636363637	60.876267				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TES-1_R2_001.fastq.gz					71.54977091155668	52.0	150.0	150	27.27272727272727	60.876267				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TES-2_R1_001.fastq.gz					89.06965815399751	52.0	150.0	150	36.36363636363637	65.179879				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TES-2_R2_001.fastq.gz					90.13407488229578	53.0	150.0	150	27.27272727272727	65.179879				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TES-3_R1_001.fastq.gz					71.41111711314554	51.0	150.0	150	36.36363636363637	69.142383				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TES-3_R2_001.fastq.gz					72.27808309922897	52.0	150.0	150	27.27272727272727	69.142383				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TESmut-1_R1_001.fastq.gz					80.00812674068217	52.0	150.0	150	36.36363636363637	68.515115				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TESmut-1_R2_001.fastq.gz					80.70011126763396	52.0	150.0	150	27.27272727272727	68.515115				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TESmut-2_R1_001.fastq.gz					81.49804372626011	51.0	150.0	150	36.36363636363637	66.652695				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TESmut-2_R2_001.fastq.gz					82.235191677206	52.0	150.0	150	27.27272727272727	66.652695				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TESmut-3_R1_001.fastq.gz					81.02384086553886	53.0	150.0	150	36.36363636363637	91.417874				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 01_fastqc | TESmut-3_R2_001.fastq.gz					81.26782411175643	53.0	150.0	150	27.27272727272727	91.417874				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggMs_R1_001.fastq.gz											33.50649200052297			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggMs_R1_001_val_1.fq.gz					88.91577487645695	51.0	99.88499495892295	97	27.27272727272727	71.301231				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggMs_R2_001.fastq.gz											33.48992261219855			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggMs_R2_001_val_2.fq.gz					89.79473521265936	51.0	99.93243730252007	97	18.181818181818183	71.301231				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggRb_R1_001.fastq.gz											30.703602164427203			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggRb_R1_001_val_1.fq.gz					91.22469029810017	51.0	104.09022537718303	102	27.27272727272727	64.446231				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggRb_R2_001.fastq.gz											30.682677626109818			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggRb_R2_001_val_2.fq.gz					91.97681036642138	51.0	104.15252705003029	102	18.181818181818183	64.446231				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-1_R1_001.fastq.gz											35.61670050313073			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-1_R1_001_val_1.fq.gz					94.64600637812369	52.0	96.78354975950069	87	27.27272727272727	237.249115				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-1_R2_001.fastq.gz											35.589326973532636			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-1_R2_001_val_2.fq.gz					95.18742767182346	52.0	96.85267606372315	87	18.181818181818183	237.249115				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-2_R1_001.fastq.gz											29.42520141578116			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-2_R1_001_val_1.fq.gz					91.04819322237196	51.0	106.03275130778896	107	27.27272727272727	68.87120399999999				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-2_R2_001.fastq.gz											29.41682814659874			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-2_R2_001_val_2.fq.gz					91.92949275947166	51.0	106.07073234119734	107	18.181818181818183	68.87120399999999				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-3_R1_001.fastq.gz											29.9302662072806			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-3_R1_001_val_1.fq.gz					92.33538365560425	48.0	105.27169375983894	102	27.27272727272727	74.666967				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-3_R2_001.fastq.gz											29.915513826721163			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-3_R2_001_val_2.fq.gz					92.97322428095158	48.0	105.31728558761466	102	18.181818181818183	74.666967				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-1_R1_001.fastq.gz											29.350293297933877			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-1_R1_001_val_1.fq.gz					70.8769289349672	50.0	106.14416467125211	102	27.27272727272727	60.820695				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-1_R2_001.fastq.gz											29.33576917038403			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-1_R2_001_val_2.fq.gz					71.56845803391238	50.0	106.19781067940772	102	18.181818181818183	60.820695				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-2_R1_001.fastq.gz											33.29564818615266			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-2_R1_001_val_1.fq.gz					89.09414508158373	52.0	100.13522002696824	97	27.27272727272727	65.141083				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-2_R2_001.fastq.gz											33.27204000076976			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-2_R2_001_val_2.fq.gz					90.17340610242125	52.0	100.1931257651949	97	18.181818181818183	65.141083				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-3_R1_001.fastq.gz											34.136589815444076			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-3_R1_001_val_1.fq.gz					71.40924885292122	50.0	98.91341142410354	92	27.27272727272727	69.079696				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-3_R2_001.fastq.gz											34.11135850881313			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-3_R2_001_val_2.fq.gz					72.29907983275788	50.0	98.98048197114244	92	18.181818181818183	69.079696				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggMs_bowtie2.log	16.91													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggMs_flagstat.txt		142.602462	24.109707999999998	16.91										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggRb_bowtie2.log	42.09													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggRb_flagstat.txt		128.892462	54.254208	42.09										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-1_bowtie2.log	23.66													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-1_flagstat.txt		474.49823	112.26838599999999	23.66										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-2_bowtie2.log	13.8													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-2_flagstat.txt		137.74240799999998	19.005034	13.8										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-3_bowtie2.log	28.57													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-3_flagstat.txt		149.333934	42.657303999999996	28.57										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-1_bowtie2.log	55.02													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-1_flagstat.txt		121.64139	66.925916	55.02										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-2_bowtie2.log	42.24													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-2_flagstat.txt		130.282166	55.036553999999995	42.24										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-3_bowtie2.log	73.0													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-3_flagstat.txt		138.159392	100.855886	73.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggMs_filtered_flagstat.txt		3.8497839999999997	3.8497839999999997	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggMs_with_rg.bam														77.8989
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggRb_filtered_flagstat.txt		3.7353419999999997	3.7353419999999997	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggRb_with_rg.bam														90.1919
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-1_filtered_flagstat.txt		3.951266	3.951266	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-1_with_rg.bam														94.89410000000001
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-2_filtered_flagstat.txt		2.335612	2.335612	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-2_with_rg.bam														83.2021
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-3_filtered_flagstat.txt		2.7608479999999997	2.7608479999999997	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-3_with_rg.bam														91.1972
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-1_filtered_flagstat.txt		28.016835999999998	28.016835999999998	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-1_with_rg.bam														51.0143
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-2_filtered_flagstat.txt		5.709934	5.709934	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-2_with_rg.bam														85.4419
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-3_filtered_flagstat.txt		33.780698	33.780698	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-3_with_rg.bam														60.1727
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 05_peaks_narrow | TEAD1												168.0	21712	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 05_peaks_narrow | TEAD1-1												176.0	18662	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 05_peaks_narrow | TEAD1-2												159.0	9933	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 05_peaks_narrow | TEAD1-3												168.0	10269	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 05_peaks_narrow | TES												132.0	20204	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 05_peaks_narrow | TES-1												148.0	22218	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 05_peaks_narrow | TES-2												136.0	14642	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 05_peaks_narrow | TES-3												132.0	18357	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut												115.0	15777	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1												130.0	13345	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_R1_001.fastq.gz											31.491551063829736			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_R1_001_val_1.fq.gz					80.02548526181891	51.0	102.88987002269354	97	27.27272727272727	68.436639				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_R2_001.fastq.gz											31.46967739892139			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_R2_001_val_2.fq.gz					80.73599110592627	51.0	102.95251501903827	97	18.181818181818183	68.436639				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_bowtie2.log	55.65													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_filtered_flagstat.txt		16.110684	16.110684	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_flagstat.txt		136.873278	76.17356199999999	55.65										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_with_rg.bam														70.4652
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2												135.0	15544	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_R1_001.fastq.gz											32.26074246510212			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_R1_001_val_1.fq.gz					81.50504579571381	50.0	101.69120796080625	97	36.36363636363637	66.598179				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_R2_001.fastq.gz											32.24455671297312			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_R2_001_val_2.fq.gz					82.26429759989354	50.0	101.74284814904624	97	27.27272727272727	66.598179				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_bowtie2.log	48.88													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_filtered_flagstat.txt		12.535344	12.535344	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_flagstat.txt		133.196358	65.11270999999999	48.88										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_with_rg.bam														71.0873
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3												115.0	15260	
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_R1_001.fastq.gz											41.027080437245786			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_R1_001_val_1.fq.gz					81.00035284628838	50.0	88.58488540870466	77	36.36363636363637	91.222374				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_R2_001.fastq.gz											40.98822535878852			
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_R2_001_val_2.fq.gz					81.28224504532861	50.0	88.67454457499647	77	27.27272727272727	91.222374				
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_bowtie2.log	61.46													
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_filtered_flagstat.txt		21.252378	21.252378	100.0										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_flagstat.txt		182.444748	112.12386	61.46										
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_with_rg.bam														72.9773
+IggMs_R1_001					88.90327384218814	52.0	150.0	150	36.36363636363637	71.369603	33.50649200052297			
+IggMs_R1_001_val_1					88.91577487645695	51.0	99.88499495892295	97	27.27272727272727	71.301231				
+IggMs_R2_001					89.76653309996436	53.0	150.0	150	27.27272727272727	71.369603	33.48992261219855			
+IggMs_R2_001_val_2					89.79473521265936	51.0	99.93243730252007	97	18.181818181818183	71.301231				
+IggMs_bowtie2	16.91													
+IggMs_filtered_flagstat		3.8497839999999997	3.8497839999999997	100.0										
+IggMs_flagstat		142.602462	24.109707999999998	16.91										
+IggMs_with_rg														77.8989
+IggRb_R1_001					91.1735093446575	52.0	150.0	150	36.36363636363637	64.522013	30.703602164427203			
+IggRb_R1_001_val_1					91.22469029810017	51.0	104.09022537718303	102	27.27272727272727	64.446231				
+IggRb_R2_001					91.88912353426046	52.0	150.0	150	27.27272727272727	64.522013	30.682677626109818			
+IggRb_R2_001_val_2					91.97681036642138	51.0	104.15252705003029	102	18.181818181818183	64.446231				
+IggRb_bowtie2	42.09													
+IggRb_filtered_flagstat		3.7353419999999997	3.7353419999999997	100.0										
+IggRb_flagstat		128.892462	54.254208	42.09										
+IggRb_with_rg														90.1919
+TEAD1												168.0	21712	
+TEAD1-1												176.0	18662	
+TEAD1-1_R1_001					94.59857763257233	52.0	150.0	150	36.36363636363637	237.691306	35.61670050313073			
+TEAD1-1_R1_001_val_1					94.64600637812369	52.0	96.78354975950069	87	27.27272727272727	237.249115				
+TEAD1-1_R2_001					95.09353023613326	53.0	150.0	150	27.27272727272727	237.691306	35.589326973532636			
+TEAD1-1_R2_001_val_2					95.18742767182346	52.0	96.85267606372315	87	18.181818181818183	237.249115				
+TEAD1-1_bowtie2	23.66													
+TEAD1-1_filtered_flagstat		3.951266	3.951266	100.0										
+TEAD1-1_flagstat		474.49823	112.26838599999999	23.66										
+TEAD1-1_with_rg														94.89410000000001
+TEAD1-2												159.0	9933	
+TEAD1-2_R1_001					91.03254575553731	51.0	150.0	150	36.36363636363637	68.939939	29.42520141578116			
+TEAD1-2_R1_001_val_1					91.04819322237196	51.0	106.03275130778896	107	27.27272727272727	68.87120399999999				
+TEAD1-2_R2_001					91.89693338799663	52.0	150.0	150	27.27272727272727	68.939939	29.41682814659874			
+TEAD1-2_R2_001_val_2					91.92949275947166	51.0	106.07073234119734	107	18.181818181818183	68.87120399999999				
+TEAD1-2_bowtie2	13.8													
+TEAD1-2_filtered_flagstat		2.335612	2.335612	100.0										
+TEAD1-2_flagstat		137.74240799999998	19.005034	13.8										
+TEAD1-2_with_rg														83.2021
+TEAD1-3												168.0	10269	
+TEAD1-3_R1_001					92.29367377105007	50.0	150.0	150	36.36363636363637	74.74671599999999	29.9302662072806			
+TEAD1-3_R1_001_val_1					92.33538365560425	48.0	105.27169375983894	102	27.27272727272727	74.666967				
+TEAD1-3_R2_001					92.90216223335847	50.0	150.0	150	27.27272727272727	74.74671599999999	29.915513826721163			
+TEAD1-3_R2_001_val_2					92.97322428095158	48.0	105.31728558761466	102	18.181818181818183	74.666967				
+TEAD1-3_bowtie2	28.57													
+TEAD1-3_filtered_flagstat		2.7608479999999997	2.7608479999999997	100.0										
+TEAD1-3_flagstat		149.333934	42.657303999999996	28.57										
+TEAD1-3_with_rg														91.1972
+TES												132.0	20204	
+TES-1												148.0	22218	
+TES-1_R1_001					70.870411276873	51.0	150.0	150	36.36363636363637	60.876267	29.350293297933877			
+TES-1_R1_001_val_1					70.8769289349672	50.0	106.14416467125211	102	27.27272727272727	60.820695				
+TES-1_R2_001					71.54977091155668	52.0	150.0	150	27.27272727272727	60.876267	29.33576917038403			
+TES-1_R2_001_val_2					71.56845803391238	50.0	106.19781067940772	102	18.181818181818183	60.820695				
+TES-1_bowtie2	55.02													
+TES-1_filtered_flagstat		28.016835999999998	28.016835999999998	100.0										
+TES-1_flagstat		121.64139	66.925916	55.02										
+TES-1_with_rg														51.0143
+TES-2												136.0	14642	
+TES-2_R1_001					89.06965815399751	52.0	150.0	150	36.36363636363637	65.179879	33.29564818615266			
+TES-2_R1_001_val_1					89.09414508158373	52.0	100.13522002696824	97	27.27272727272727	65.141083				
+TES-2_R2_001					90.13407488229578	53.0	150.0	150	27.27272727272727	65.179879	33.27204000076976			
+TES-2_R2_001_val_2					90.17340610242125	52.0	100.1931257651949	97	18.181818181818183	65.141083				
+TES-2_bowtie2	42.24													
+TES-2_filtered_flagstat		5.709934	5.709934	100.0										
+TES-2_flagstat		130.282166	55.036553999999995	42.24										
+TES-2_with_rg														85.4419
+TES-3												132.0	18357	
+TES-3_R1_001					71.41111711314554	51.0	150.0	150	36.36363636363637	69.142383	34.136589815444076			
+TES-3_R1_001_val_1					71.40924885292122	50.0	98.91341142410354	92	27.27272727272727	69.079696				
+TES-3_R2_001					72.27808309922897	52.0	150.0	150	27.27272727272727	69.142383	34.11135850881313			
+TES-3_R2_001_val_2					72.29907983275788	50.0	98.98048197114244	92	18.181818181818183	69.079696				
+TES-3_bowtie2	73.0													
+TES-3_filtered_flagstat		33.780698	33.780698	100.0										
+TES-3_flagstat		138.159392	100.855886	73.0										
+TES-3_with_rg														60.1727
+TESmut												115.0	15777	
+TESmut-1												130.0	13345	
+TESmut-1_R1_001					80.00812674068217	52.0	150.0	150	36.36363636363637	68.515115	31.491551063829736			
+TESmut-1_R1_001_val_1					80.02548526181891	51.0	102.88987002269354	97	27.27272727272727	68.436639				
+TESmut-1_R2_001					80.70011126763396	52.0	150.0	150	27.27272727272727	68.515115	31.46967739892139			
+TESmut-1_R2_001_val_2					80.73599110592627	51.0	102.95251501903827	97	18.181818181818183	68.436639				
+TESmut-1_bowtie2	55.65													
+TESmut-1_filtered_flagstat		16.110684	16.110684	100.0										
+TESmut-1_flagstat		136.873278	76.17356199999999	55.65										
+TESmut-1_with_rg														70.4652
+TESmut-2												135.0	15544	
+TESmut-2_R1_001					81.49804372626011	51.0	150.0	150	36.36363636363637	66.652695	32.26074246510212			
+TESmut-2_R1_001_val_1					81.50504579571381	50.0	101.69120796080625	97	36.36363636363637	66.598179				
+TESmut-2_R2_001					82.235191677206	52.0	150.0	150	27.27272727272727	66.652695	32.24455671297312			
+TESmut-2_R2_001_val_2					82.26429759989354	50.0	101.74284814904624	97	27.27272727272727	66.598179				
+TESmut-2_bowtie2	48.88													
+TESmut-2_filtered_flagstat		12.535344	12.535344	100.0										
+TESmut-2_flagstat		133.196358	65.11270999999999	48.88										
+TESmut-2_with_rg														71.0873
+TESmut-3												115.0	15260	
+TESmut-3_R1_001					81.02384086553886	53.0	150.0	150	36.36363636363637	91.417874	41.027080437245786			
+TESmut-3_R1_001_val_1					81.00035284628838	50.0	88.58488540870466	77	36.36363636363637	91.222374				
+TESmut-3_R2_001					81.26782411175643	53.0	150.0	150	27.27272727272727	91.417874	40.98822535878852			
+TESmut-3_R2_001_val_2					81.28224504532861	50.0	88.67454457499647	77	27.27272727272727	91.222374				
+TESmut-3_bowtie2	61.46													
+TESmut-3_filtered_flagstat		21.252378	21.252378	100.0										
+TESmut-3_flagstat		182.444748	112.12386	61.46										
+TESmut-3_with_rg														72.9773

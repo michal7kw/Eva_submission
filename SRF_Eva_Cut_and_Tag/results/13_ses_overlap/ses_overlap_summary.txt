@@ -1,0 +1,194 @@
+SES Consensus Overlap Analysis Summary (Chromosome Names Fixed)
+===============================================================
+Date: Tue Mar  3 05:17:24 PM CET 2026
+SES Consensus File: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/Eva_submission/SRF_Eva_Cut_and_Tag/DATA/SES_consensus.broadPeak
+Total SES Consensus Peaks: 
+
+Note: Chromosome names were converted from numeric (1,2,3...) to chr format (chr1,chr2,chr3...)
+to match SES consensus peak naming convention.
+
+NARROW PEAKS ANALYSIS:
+======================
+
+Sample: TEAD1-1_peaks.narrowPeak
+Peak Type: narrow
+Total TEAD1-1_peaks.narrowPeak peaks: 18662
+TEAD1-1_peaks.narrowPeak peaks overlapping SES: 7122
+Percentage of TEAD1-1_peaks.narrowPeak peaks overlapping SES: 38.16%
+SES peaks overlapped by TEAD1-1_peaks.narrowPeak: 7149
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1-1_peaks.narrowPeak: 15.98%
+
+Sample: TEAD1-2_peaks.narrowPeak
+Peak Type: narrow
+Total TEAD1-2_peaks.narrowPeak peaks: 9933
+TEAD1-2_peaks.narrowPeak peaks overlapping SES: 4246
+Percentage of TEAD1-2_peaks.narrowPeak peaks overlapping SES: 42.74%
+SES peaks overlapped by TEAD1-2_peaks.narrowPeak: 4256
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1-2_peaks.narrowPeak: 9.51%
+
+Sample: TEAD1-3_peaks.narrowPeak
+Peak Type: narrow
+Total TEAD1-3_peaks.narrowPeak peaks: 10269
+TEAD1-3_peaks.narrowPeak peaks overlapping SES: 4144
+Percentage of TEAD1-3_peaks.narrowPeak peaks overlapping SES: 40.35%
+SES peaks overlapped by TEAD1-3_peaks.narrowPeak: 4163
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1-3_peaks.narrowPeak: 9.30%
+
+Sample: TEAD1_consensus_peaks.bed
+Peak Type: narrow
+Total TEAD1_consensus_peaks.bed peaks: 11012
+TEAD1_consensus_peaks.bed peaks overlapping SES: 4753
+Percentage of TEAD1_consensus_peaks.bed peaks overlapping SES: 43.16%
+SES peaks overlapped by TEAD1_consensus_peaks.bed: 4152
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1_consensus_peaks.bed: 9.28%
+
+Sample: TEAD1_consensus_peaks_scored.bed
+Peak Type: narrow
+Total TEAD1_consensus_peaks_scored.bed peaks: 61624
+TEAD1_consensus_peaks_scored.bed peaks overlapping SES: 0
+Percentage of TEAD1_consensus_peaks_scored.bed peaks overlapping SES: 0%
+SES peaks overlapped by TEAD1_consensus_peaks_scored.bed: 0
+Total SES consensus peaks: 
+Percentage of SES peaks covered by TEAD1_consensus_peaks_scored.bed: 0%
+
+Sample: TEAD1_peaks.narrowPeak
+Peak Type: narrow
+Total TEAD1_peaks.narrowPeak peaks: 21712
+TEAD1_peaks.narrowPeak peaks overlapping SES: 8287
+Percentage of TEAD1_peaks.narrowPeak peaks overlapping SES: 38.16%
+SES peaks overlapped by TEAD1_peaks.narrowPeak: 8305
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1_peaks.narrowPeak: 18.56%
+
+Sample: TES-1_peaks.narrowPeak
+Peak Type: narrow
+Total TES-1_peaks.narrowPeak peaks: 22218
+TES-1_peaks.narrowPeak peaks overlapping SES: 7190
+Percentage of TES-1_peaks.narrowPeak peaks overlapping SES: 32.36%
+SES peaks overlapped by TES-1_peaks.narrowPeak: 7143
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES-1_peaks.narrowPeak: 15.97%
+
+Sample: TES-2_peaks.narrowPeak
+Peak Type: narrow
+Total TES-2_peaks.narrowPeak peaks: 14642
+TES-2_peaks.narrowPeak peaks overlapping SES: 4614
+Percentage of TES-2_peaks.narrowPeak peaks overlapping SES: 31.51%
+SES peaks overlapped by TES-2_peaks.narrowPeak: 4550
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES-2_peaks.narrowPeak: 10.17%
+
+Sample: TES-3_peaks.narrowPeak
+Peak Type: narrow
+Total TES-3_peaks.narrowPeak peaks: 18357
+TES-3_peaks.narrowPeak peaks overlapping SES: 6562
+Percentage of TES-3_peaks.narrowPeak peaks overlapping SES: 35.74%
+SES peaks overlapped by TES-3_peaks.narrowPeak: 6513
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES-3_peaks.narrowPeak: 14.56%
+
+Sample: TES_consensus_peaks.bed
+Peak Type: narrow
+Total TES_consensus_peaks.bed peaks: 17601
+TES_consensus_peaks.bed peaks overlapping SES: 6236
+Percentage of TES_consensus_peaks.bed peaks overlapping SES: 35.42%
+SES peaks overlapped by TES_consensus_peaks.bed: 5276
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES_consensus_peaks.bed: 11.79%
+
+Sample: TES_consensus_peaks_scored.bed
+Peak Type: narrow
+Total TES_consensus_peaks_scored.bed peaks: 79841
+TES_consensus_peaks_scored.bed peaks overlapping SES: 0
+Percentage of TES_consensus_peaks_scored.bed peaks overlapping SES: 0%
+SES peaks overlapped by TES_consensus_peaks_scored.bed: 0
+Total SES consensus peaks: 
+Percentage of SES peaks covered by TES_consensus_peaks_scored.bed: 0%
+
+Sample: TES_peaks.narrowPeak
+Peak Type: narrow
+Total TES_peaks.narrowPeak peaks: 20204
+TES_peaks.narrowPeak peaks overlapping SES: 7097
+Percentage of TES_peaks.narrowPeak peaks overlapping SES: 35.12%
+SES peaks overlapped by TES_peaks.narrowPeak: 7037
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES_peaks.narrowPeak: 15.73%
+
+BROAD PEAKS ANALYSIS:
+=====================
+
+Sample: TEAD1-1_peaks.broadPeak
+Peak Type: broad
+Total TEAD1-1_peaks.broadPeak peaks: 30893
+TEAD1-1_peaks.broadPeak peaks overlapping SES: 9953
+Percentage of TEAD1-1_peaks.broadPeak peaks overlapping SES: 32.21%
+SES peaks overlapped by TEAD1-1_peaks.broadPeak: 10116
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1-1_peaks.broadPeak: 22.61%
+
+Sample: TEAD1-2_peaks.broadPeak
+Peak Type: broad
+Total TEAD1-2_peaks.broadPeak peaks: 19674
+TEAD1-2_peaks.broadPeak peaks overlapping SES: 6682
+Percentage of TEAD1-2_peaks.broadPeak peaks overlapping SES: 33.96%
+SES peaks overlapped by TEAD1-2_peaks.broadPeak: 6760
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1-2_peaks.broadPeak: 15.11%
+
+Sample: TEAD1-3_peaks.broadPeak
+Peak Type: broad
+Total TEAD1-3_peaks.broadPeak peaks: 20609
+TEAD1-3_peaks.broadPeak peaks overlapping SES: 6502
+Percentage of TEAD1-3_peaks.broadPeak peaks overlapping SES: 31.54%
+SES peaks overlapped by TEAD1-3_peaks.broadPeak: 6579
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1-3_peaks.broadPeak: 14.70%
+
+Sample: TEAD1_peaks.broadPeak
+Peak Type: broad
+Total TEAD1_peaks.broadPeak peaks: 27499
+TEAD1_peaks.broadPeak peaks overlapping SES: 10004
+Percentage of TEAD1_peaks.broadPeak peaks overlapping SES: 36.37%
+SES peaks overlapped by TEAD1_peaks.broadPeak: 10154
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1_peaks.broadPeak: 22.70%
+
+Sample: TES-1_peaks.broadPeak
+Peak Type: broad
+Total TES-1_peaks.broadPeak peaks: 34322
+TES-1_peaks.broadPeak peaks overlapping SES: 10205
+Percentage of TES-1_peaks.broadPeak peaks overlapping SES: 29.73%
+SES peaks overlapped by TES-1_peaks.broadPeak: 10317
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES-1_peaks.broadPeak: 23.06%
+
+Sample: TES-2_peaks.broadPeak
+Peak Type: broad
+Total TES-2_peaks.broadPeak peaks: 26774
+TES-2_peaks.broadPeak peaks overlapping SES: 7427
+Percentage of TES-2_peaks.broadPeak peaks overlapping SES: 27.73%
+SES peaks overlapped by TES-2_peaks.broadPeak: 7481
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES-2_peaks.broadPeak: 16.72%
+
+Sample: TES-3_peaks.broadPeak
+Peak Type: broad
+Total TES-3_peaks.broadPeak peaks: 27740
+TES-3_peaks.broadPeak peaks overlapping SES: 9231
+Percentage of TES-3_peaks.broadPeak peaks overlapping SES: 33.27%
+SES peaks overlapped by TES-3_peaks.broadPeak: 9304
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES-3_peaks.broadPeak: 20.80%
+
+Sample: TES_peaks.broadPeak
+Peak Type: broad
+Total TES_peaks.broadPeak peaks: 29789
+TES_peaks.broadPeak peaks overlapping SES: 9646
+Percentage of TES_peaks.broadPeak peaks overlapping SES: 32.38%
+SES peaks overlapped by TES_peaks.broadPeak: 9717
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES_peaks.broadPeak: 21.72%

@@ -1,0 +1,8 @@
+Sample: TEAD1-3_peaks.broadPeak
+Peak Type: broad
+Total TEAD1-3_peaks.broadPeak peaks: 20609
+TEAD1-3_peaks.broadPeak peaks overlapping SES: 6502
+Percentage of TEAD1-3_peaks.broadPeak peaks overlapping SES: 31.54%
+SES peaks overlapped by TEAD1-3_peaks.broadPeak: 6579
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TEAD1-3_peaks.broadPeak: 14.70%

@@ -1,0 +1,127 @@
+# SRF_Eva Cut&Tag Analysis Pipeline Configuration
+# Unified configuration for narrow peak analysis only
+
+# Project metadata
+project:
+  name: "SRF_Eva_CutTag"
+  description: "TES/TEAD1 transcriptional regulation analysis - Narrow Peaks Only"
+  organism: "Homo sapiens"
+  genome: "hg38"
+
+# Sample configuration
+# NOTE: TESmut samples removed - failed sample
+samples:
+  groups:
+    TES:
+      samples: ["TES-1", "TES-2", "TES-3"]
+      control: "IggMs"
+      description: "Wild-type TES transcription factor"
+    # TESmut removed - failed sample
+    TEAD1:
+      samples: ["TEAD1-1", "TEAD1-2", "TEAD1-3"]
+      control: "IggRb"
+      description: "TEAD1 transcription factor"
+  controls:
+    - "IggMs"
+    - "IggRb"
+
+# Computational resources
+resources:
+  small_job:
+    mem: "8GB"
+    time: "02:00:00"
+    cpus: 4
+  medium_job:
+    mem: "16GB"
+    time: "04:00:00"
+    cpus: 8
+  large_job:
+    mem: "32GB"
+    time: "08:00:00"
+    cpus: 16
+
+# Quality control thresholds
+qc_thresholds:
+  alignment:
+    min_alignment_rate: 0.7
+    max_duplicate_rate: 0.3
+  peak_calling:
+    min_peaks: 1000
+    max_peaks: 100000
+    min_enrichment: 2.0
+  differential_binding:
+    fdr_threshold: 0.05
+    fold_change_threshold: 1.5
+
+# Analysis parameters - NARROW PEAKS ONLY
+parameters:
+  trimming:
+    adapter_type: "auto-detect"  # Trim Galore auto-detects Nextera/Tn5 adapters
+    quality_cutoff: 20
+    min_length: 20
+
+  alignment:
+    bowtie2_params: "--very-sensitive-local --dovetail --no-mixed --no-discordant --phred33 -I 10 -X 700"
+
+  filtering:
+    mapq_threshold: 30
+    remove_duplicates: false  # Mark only; CUT&Tag duplicates are often biological
+    remove_mitochondrial: true
+    samtools_flags: "-f 2 -F 2828"  # Properly paired, exclude unmapped/QC-fail/not-primary/supplementary
+
+  peak_calling:
+    macs2_format: "BAMPE"  # Paired-end: uses actual fragment sizes, no shift/extsize needed
+    macs2_params_se: "--nomodel --shift -75 --extsize 150"  # Only for single-end fallback
+    qvalue: 0.05
+    keep_dup: "all"  # Retain marked duplicates (biological in CUT&Tag)
+
+  bigwig:
+    normalization: "CPM"
+    bin_size: 10
+    extend_reads: 200
+
+  annotation:
+    tss_region: [-3000, 3000]
+    promoter_region: [-2000, 500]
+
+  go_analysis:
+    organism: "org.Hs.eg.db"
+    ontology: "BP"
+    p_adjust_method: "BH"
+    p_cutoff: 0.05
+    q_cutoff: 0.05
+    min_gene_set_size: 10
+    max_gene_set_size: 500
+
+# Directory structure
+directories:
+  base: "/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva"
+  raw_data: "data/raw"
+  results: "results"
+  logs: "logs"
+  config: "config"
+  scripts: "scripts"
+  temp: "temp"
+
+# Conda environments
+conda_envs:
+  quality: "quality"
+  alignment: "cutntag"
+  peak_calling: "peak_calling_new"
+  bigwig: "bigwig"
+  r_analysis: "diffbind_analysis"
+  multiqc: "multiqc"
+
+# SLURM configuration
+slurm:
+  account: "kubacki.michal"
+  email: "kubacki.michal@hsr.it"
+  partition: "normal"
+
+# Statistical contrasts for differential analysis
+# NOTE: TESmut contrasts removed - failed sample
+contrasts:
+  - name: "TES_vs_TEAD1"
+    group1: "TES"
+    group2: "TEAD1"
+    description: "TES vs TEAD1 binding comparison"

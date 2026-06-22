@@ -1,0 +1,8 @@
+Sample: TES-2_peaks.broadPeak
+Peak Type: broad
+Total TES-2_peaks.broadPeak peaks: 26774
+TES-2_peaks.broadPeak peaks overlapping SES: 7427
+Percentage of TES-2_peaks.broadPeak peaks overlapping SES: 27.73%
+SES peaks overlapped by TES-2_peaks.broadPeak: 7481
+Total SES consensus peaks: 44726
+Percentage of SES peaks covered by TES-2_peaks.broadPeak: 16.72%

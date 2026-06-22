@@ -1,0 +1,43 @@
+ENCODE Enhancer Methylation Analysis
+====================================
+
+Methylation Difference (TES - GFP)
+
+       Group     N  Mean_diff Median_diff Pct_hypermethylated
+1  TES_bound 15319 -1.5489717  -0.4284783            45.40766
+2 TEAD1_only 15451 -0.2423452   0.3678157            53.69232
+3    Unbound 15315 -0.9325452   0.0000000            49.65720
+  Pct_hypomethylated
+1           54.01136
+2           45.52456
+3           49.59843
+
+
+Statistical Tests:
+
+TES-bound vs Unbound:
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  g1_diff and g3_diff
+W = 109489720, p-value < 2.2e-16
+alternative hypothesis: true location shift is not equal to 0
+
+
+TEAD1-only vs Unbound:
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  g2_diff and g3_diff
+W = 122363346, p-value = 2.035e-07
+alternative hypothesis: true location shift is not equal to 0
+
+
+TES-bound vs TEAD1-only:
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  g1_diff and g2_diff
+W = 104352452, p-value < 2.2e-16
+alternative hypothesis: true location shift is not equal to 0
+

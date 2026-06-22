@@ -1,0 +1,22 @@
+GO CC Enrichment Summary - Upregulated Genes
+===================================================
+Significant terms found: 2 
+P-value cutoff: 0.05
+Q-value cutoff: 0.2
+
+Top 10 enriched terms:
+                   ID                      Description GeneRatio   BgRatio
+GO:0009897 GO:0009897 external side of plasma membrane   95/3937 230/13986
+GO:0005770 GO:0005770                    late endosome  106/3937 269/13986
+           RichFactor FoldEnrichment   zScore       pvalue   p.adjust
+GO:0009897  0.4130435       1.467317 4.472823 1.068144e-05 0.00750905
+GO:0005770  0.3940520       1.399851 4.144736 3.814538e-05 0.01340810
+                qvalue
+GO:0009897 0.007252133
+GO:0005770 0.012949352
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            geneID
+GO:0009897                                                                                                        TCN2/IL31RA/CCR4/CXCL12/MAP3K5/KDR/ITGA6/COLEC11/NEU3/MFGE8/ITGA2B/MICA/IL27RA/PRND/ITGA5/PECAM1/BTN3A1/MS4A2/BTN3A3/IL13RA1/FCGR1A/CD80/ACE/BTN3A2/IL12RB2/HLA-C/PLAU/TRPV1/ENOX1/TFR2/CD24/S1PR1/INSR/HEG1/CD248/MICB/CLCN3/CTSB/LIFR/CCR7/FCGRT/BTN2A2/CLEC4M/HYAL2/ABCG1/CD8A/CD40/CD22/CCR1/HLA-B/HLA-F/CLPTM1/ULBP2/LDLR/IL2RB/GLRA1/FCRLA/ACKR4/CD33/CD74/ABCB1/SELL/CRLF1/ADGRA3/LAMP1/CLEC2B/CTSK/ITGAX/HLA-E/CNTFR/SELP/HLA-A/ADAM21/IL12RB1/ENOX2/RTBDN/EFNA5/SPN/PLAUR/LY75/RTN4RL2/RS1/SLC2A4/MR1/ENPP3/GPIHBP1/SCUBE1/MUC16/B2M/ADAM20/ABCG2/MFAP3/TFRC/CD5/BTN2A1
+GO:0005770 NPC1/CDIP1/LAPTM4B/IRGM/CTSS/TMEM163/MCOLN2/BST2/GRIN2B/MON1A/MCOLN1/VPS39/ANXA6/MMD/SFTPB/F2R/CHMP7/ATP7B/ATP7A/VAC14/VAMP8/MARCHF8/INSR/OSBPL11/VTI1A/SNX16/CTNS/RMC1/ZFYVE26/TMEM59/WDR48/AP5Z1/WDR81/RNF149/KIDINS220/CLCN3/ANKRD13B/MTMR4/ARL8B/VPS8/STARD3/TMEM230/BAIAP3/ARL8A/YIPF1/MCOLN3/ATP13A2/SLC30A3/VPS16/LDLR/LAMP3/DERL1/NTRK1/HLA-DMA/IL12A/VPS36/PLD3/LAMTOR1/CLEC16A/CHMP3/CD74/UVRAG/FYCO1/CHMP1A/GRN/LAMP1/IGF2R/KCMF1/ATP13A5/SIGLEC1/SDF4/SLC38A9/TMEM25/M6PR/SLC9A9/MON1B/LGMN/ASTN2/LRAT/RAB7A/LAMTOR4/SLC2A4/MR1/TSG101/NSG2/AP1AR/RNF148/VPS11/B2M/SRC/FIG4/ENTREP1/VPS37D/RAB27A/TPCN2/ZMPSTE24/RILP/LITAF/ABHD6/BACE1/SLC9A6/STX8/CHID1/YIPF2/CD2AP/CHMP5
+           Count
+GO:0009897    95
+GO:0005770   106

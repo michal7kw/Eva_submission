@@ -1,0 +1,124 @@
+Module	Section	Sample Name	Source
+MACS2	all_sections	TEAD1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/TEAD1_peaks.xls
+MACS2	all_sections	TEAD1-1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/TEAD1-1_peaks.xls
+MACS2	all_sections	TEAD1-2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/TEAD1-2_peaks.xls
+MACS2	all_sections	TEAD1-3	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/TEAD1-3_peaks.xls
+MACS2	all_sections	TES	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/TES_peaks.xls
+MACS2	all_sections	TES-1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/TES-1_peaks.xls
+MACS2	all_sections	TES-2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/TES-2_peaks.xls
+MACS2	all_sections	TES-3	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/TES-3_peaks.xls
+MACS2	all_sections	TESmut	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut_peaks.xls
+MACS2	all_sections	TESmut-1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_peaks.xls
+MACS2	all_sections	TESmut-2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_peaks.xls
+MACS2	all_sections	TESmut-3	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_peaks.xls
+Picard	DuplicationMetrics	IggMs_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/IggMs_dedup_metrics.txt
+Picard	DuplicationMetrics	IggRb_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/IggRb_dedup_metrics.txt
+Picard	DuplicationMetrics	TEAD1-1_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TEAD1-1_dedup_metrics.txt
+Picard	DuplicationMetrics	TEAD1-2_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TEAD1-2_dedup_metrics.txt
+Picard	DuplicationMetrics	TEAD1-3_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TEAD1-3_dedup_metrics.txt
+Picard	DuplicationMetrics	TES-1_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TES-1_dedup_metrics.txt
+Picard	DuplicationMetrics	TES-2_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TES-2_dedup_metrics.txt
+Picard	DuplicationMetrics	TES-3_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TES-3_dedup_metrics.txt
+Picard	DuplicationMetrics	TESmut-1_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_dedup_metrics.txt
+Picard	DuplicationMetrics	TESmut-2_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_dedup_metrics.txt
+Picard	DuplicationMetrics	TESmut-3_with_rg	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_dedup_metrics.txt
+Samtools	flagstat	IggMs_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/IggMs_filtered_flagstat.txt
+Samtools	flagstat	IggMs_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/IggMs_flagstat.txt
+Samtools	flagstat	IggRb_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/IggRb_filtered_flagstat.txt
+Samtools	flagstat	IggRb_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/IggRb_flagstat.txt
+Samtools	flagstat	TEAD1-1_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TEAD1-1_filtered_flagstat.txt
+Samtools	flagstat	TEAD1-1_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TEAD1-1_flagstat.txt
+Samtools	flagstat	TEAD1-2_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TEAD1-2_filtered_flagstat.txt
+Samtools	flagstat	TEAD1-2_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TEAD1-2_flagstat.txt
+Samtools	flagstat	TEAD1-3_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TEAD1-3_filtered_flagstat.txt
+Samtools	flagstat	TEAD1-3_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TEAD1-3_flagstat.txt
+Samtools	flagstat	TES-1_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TES-1_filtered_flagstat.txt
+Samtools	flagstat	TES-1_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TES-1_flagstat.txt
+Samtools	flagstat	TES-2_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TES-2_filtered_flagstat.txt
+Samtools	flagstat	TES-2_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TES-2_flagstat.txt
+Samtools	flagstat	TES-3_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/TES-3_filtered_flagstat.txt
+Samtools	flagstat	TES-3_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TES-3_flagstat.txt
+Samtools	flagstat	TESmut-1_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_filtered_flagstat.txt
+Samtools	flagstat	TESmut-1_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_flagstat.txt
+Samtools	flagstat	TESmut-2_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_filtered_flagstat.txt
+Samtools	flagstat	TESmut-2_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_flagstat.txt
+Samtools	flagstat	TESmut-3_filtered_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_filtered_flagstat.txt
+Samtools	flagstat	TESmut-3_flagstat	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_flagstat.txt
+Bowtie 2 / HiSAT2	all_sections	IggMs_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/IggMs_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	IggRb_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/IggRb_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TEAD1-1_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TEAD1-1_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TEAD1-2_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TEAD1-2_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TEAD1-3_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TEAD1-3_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TES-1_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TES-1_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TES-2_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TES-2_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TES-3_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/03_aligned/TES-3_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TESmut-1_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TESmut-2_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	TESmut-3_bowtie2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_bowtie2.log
+Cutadapt	all_sections	IggMs_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/IggMs_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	IggMs_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/IggMs_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	IggRb_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/IggRb_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	IggRb_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/IggRb_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TEAD1-1_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-1_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TEAD1-1_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-1_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TEAD1-2_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-2_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TEAD1-2_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-2_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TEAD1-3_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-3_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TEAD1-3_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-3_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TES-1_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-1_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TES-1_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-1_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TES-2_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-2_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TES-2_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-2_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TES-3_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-3_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TES-3_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-3_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TESmut-1_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TESmut-1_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TESmut-2_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TESmut-2_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_R2_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TESmut-3_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_R1_001.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	TESmut-3_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_R2_001.fastq.gz_trimming_report.txt
+FastQC	all_sections	IggMs_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/IggMs_R1_001_fastqc.zip
+FastQC	all_sections	IggMs_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/IggMs_R1_001_val_1_fastqc.zip
+FastQC	all_sections	IggMs_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/IggMs_R2_001_fastqc.zip
+FastQC	all_sections	IggMs_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/IggMs_R2_001_val_2_fastqc.zip
+FastQC	all_sections	IggRb_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/IggRb_R1_001_fastqc.zip
+FastQC	all_sections	IggRb_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/IggRb_R1_001_val_1_fastqc.zip
+FastQC	all_sections	IggRb_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/IggRb_R2_001_fastqc.zip
+FastQC	all_sections	IggRb_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/IggRb_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TEAD1-1_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TEAD1-1_R1_001_fastqc.zip
+FastQC	all_sections	TEAD1-1_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-1_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TEAD1-1_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TEAD1-1_R2_001_fastqc.zip
+FastQC	all_sections	TEAD1-1_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-1_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TEAD1-2_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TEAD1-2_R1_001_fastqc.zip
+FastQC	all_sections	TEAD1-2_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-2_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TEAD1-2_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TEAD1-2_R2_001_fastqc.zip
+FastQC	all_sections	TEAD1-2_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-2_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TEAD1-3_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TEAD1-3_R1_001_fastqc.zip
+FastQC	all_sections	TEAD1-3_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-3_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TEAD1-3_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TEAD1-3_R2_001_fastqc.zip
+FastQC	all_sections	TEAD1-3_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TEAD1-3_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TES-1_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TES-1_R1_001_fastqc.zip
+FastQC	all_sections	TES-1_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-1_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TES-1_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TES-1_R2_001_fastqc.zip
+FastQC	all_sections	TES-1_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-1_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TES-2_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TES-2_R1_001_fastqc.zip
+FastQC	all_sections	TES-2_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-2_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TES-2_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TES-2_R2_001_fastqc.zip
+FastQC	all_sections	TES-2_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-2_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TES-3_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TES-3_R1_001_fastqc.zip
+FastQC	all_sections	TES-3_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-3_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TES-3_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TES-3_R2_001_fastqc.zip
+FastQC	all_sections	TES-3_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/02_trimmed/TES-3_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TESmut-1_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TESmut-1_R1_001_fastqc.zip
+FastQC	all_sections	TESmut-1_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TESmut-1_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TESmut-1_R2_001_fastqc.zip
+FastQC	all_sections	TESmut-1_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-1_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TESmut-2_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TESmut-2_R1_001_fastqc.zip
+FastQC	all_sections	TESmut-2_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TESmut-2_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TESmut-2_R2_001_fastqc.zip
+FastQC	all_sections	TESmut-2_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-2_R2_001_val_2_fastqc.zip
+FastQC	all_sections	TESmut-3_R1_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TESmut-3_R1_001_fastqc.zip
+FastQC	all_sections	TESmut-3_R1_001_val_1	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_R1_001_val_1_fastqc.zip
+FastQC	all_sections	TESmut-3_R2_001	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/01_fastqc/TESmut-3_R2_001_fastqc.zip
+FastQC	all_sections	TESmut-3_R2_001_val_2	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/Legacy/TESmut-3_R2_001_val_2_fastqc.zip
+Snippy	snippy	multiqc	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/report/TES_TEAD1_CutTag_Report_data/multiqc.log

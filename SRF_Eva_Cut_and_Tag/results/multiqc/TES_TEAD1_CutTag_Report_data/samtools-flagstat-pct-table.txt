@@ -1,0 +1,45 @@
+Sample	Total Reads	Total Passed QC	Mapped	Duplicates	Paired in Sequencing	Properly Paired	Self and mate mapped	Singletons	Mate mapped to diff chr	Diff chr (mapQ >= 5)
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggMs_flagstat.txt	100.0	100.0	16.906936711934186	0.0	100.0	16.906936711934186	16.906936711934186	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggRb_flagstat.txt	100.0	100.0	42.092615160070416	0.0	100.0	42.092615160070416	42.092615160070416	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-1_flagstat.txt	100.0	100.0	23.660443580579848	0.0	100.0	23.660443580579848	23.660443580579848	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-2_flagstat.txt	100.0	100.0	13.797518335820003	0.0	100.0	13.797518335820003	13.797518335820003	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-3_flagstat.txt	100.0	100.0	28.565044030782715	0.0	100.0	28.565044030782715	28.565044030782715	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-1_flagstat.txt	100.0	100.0	55.01903258422154	0.0	100.0	55.01903258422154	55.01903258422154	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-2_flagstat.txt	100.0	100.0	42.24411958272171	0.0	100.0	42.24411958272171	42.24411958272171	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-3_flagstat.txt	100.0	100.0	72.99965969740227	0.0	100.0	72.99965969740227	72.99965969740227	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggMs_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggRb_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-1_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-2_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-3_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-1_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-2_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-3_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_flagstat.txt	100.0	100.0	55.65261759859364	0.0	100.0	55.65261759859364	55.65261759859364	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_flagstat.txt	100.0	100.0	48.88475253955517	0.0	100.0	48.88475253955517	48.88475253955517	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_filtered_flagstat.txt	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_flagstat.txt	100.0	100.0	61.45633745510723	0.0	100.0	61.45633745510723	61.45633745510723	0.0	0.0	0.0
+IggMs_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+IggMs_flagstat	100.0	100.0	16.906936711934186	0.0	100.0	16.906936711934186	16.906936711934186	0.0	0.0	0.0
+IggRb_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+IggRb_flagstat	100.0	100.0	42.092615160070416	0.0	100.0	42.092615160070416	42.092615160070416	0.0	0.0	0.0
+TEAD1-1_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TEAD1-1_flagstat	100.0	100.0	23.660443580579848	0.0	100.0	23.660443580579848	23.660443580579848	0.0	0.0	0.0
+TEAD1-2_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TEAD1-2_flagstat	100.0	100.0	13.797518335820003	0.0	100.0	13.797518335820003	13.797518335820003	0.0	0.0	0.0
+TEAD1-3_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TEAD1-3_flagstat	100.0	100.0	28.565044030782715	0.0	100.0	28.565044030782715	28.565044030782715	0.0	0.0	0.0
+TES-1_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TES-1_flagstat	100.0	100.0	55.01903258422154	0.0	100.0	55.01903258422154	55.01903258422154	0.0	0.0	0.0
+TES-2_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TES-2_flagstat	100.0	100.0	42.24411958272171	0.0	100.0	42.24411958272171	42.24411958272171	0.0	0.0	0.0
+TES-3_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TES-3_flagstat	100.0	100.0	72.99965969740227	0.0	100.0	72.99965969740227	72.99965969740227	0.0	0.0	0.0
+TESmut-1_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TESmut-1_flagstat	100.0	100.0	55.65261759859364	0.0	100.0	55.65261759859364	55.65261759859364	0.0	0.0	0.0
+TESmut-2_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TESmut-2_flagstat	100.0	100.0	48.88475253955517	0.0	100.0	48.88475253955517	48.88475253955517	0.0	0.0	0.0
+TESmut-3_filtered_flagstat	100.0	100.0	100.0	0.0	100.0	100.0	100.0	0.0	0.0	0.0
+TESmut-3_flagstat	100.0	100.0	61.45633745510723	0.0	100.0	61.45633745510723	61.45633745510723	0.0	0.0	0.0

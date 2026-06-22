@@ -1,0 +1,12 @@
+Sample	total_reads	paired_total	paired_aligned_none	paired_aligned_one	paired_aligned_multi	overall_alignment_rate	paired_aligned_mate_none_halved
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggMs_bowtie2.log	71301231	71301231	59246377	7596128	4458726	16.91	59246377
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggRb_bowtie2.log	64446231	64446231	37319127	18329879	8797225	42.09	37319127
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-1_bowtie2.log	237249115	237249115	181114922	37242180	18892013	23.66	181114922
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-2_bowtie2.log	68871204	68871204	59368687	6706390	2796127	13.8	59368687
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-3_bowtie2.log	74666967	74666967	53338315	15868630	5460022	28.57	53338315
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-1_bowtie2.log	60820695	60820695	27357737	27028703	6434255	55.02	27357737
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-2_bowtie2.log	65141083	65141083	37622806	21366818	6151459	42.24	37622806
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-3_bowtie2.log	69079696	69079696	18651753	36091437	14336506	73.0	18651753
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_bowtie2.log	68436639	68436639	30349858	23693757	14393024	55.65	30349858
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_bowtie2.log	66598179	66598179	34041824	20316106	12240249	48.88	34041824
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_bowtie2.log	91222374	91222374	35160444	33176665	22885265	61.46	35160444

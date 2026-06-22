@@ -1,0 +1,11 @@
+"group","peak_type","n_samples","mean_overlap","sd_overlap","mean_ses_coverage","sd_ses_coverage"
+"TEAD1","broad",8,33.52,2,18.78,4.15
+"TEAD1","narrow",8,39.85,2.02,13.34,4.32
+"TEAD1","narrow_replicate",6,0,0,0,0
+"TEAD1_consensus_peaks.bed","narrow",2,43.16,0,9.28,0
+"TEAD1_consensus_peaks_scored.bed","narrow",2,0,0,0,0
+"TES","broad",8,30.78,2.34,20.58,2.53
+"TES","narrow",8,33.68,1.91,14.11,2.5
+"TES","narrow_replicate",6,0,0,0,0
+"TES_consensus_peaks.bed","narrow",2,35.42,0,11.79,0
+"TES_consensus_peaks_scored.bed","narrow",2,0,0,0,0

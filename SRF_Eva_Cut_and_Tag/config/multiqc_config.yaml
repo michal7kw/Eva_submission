@@ -1,0 +1,125 @@
+# MultiQC Configuration for Cut&Tag Analysis
+
+title: "Cut&Tag Analysis Report: TES/TEAD1 Epigenetic Study"
+subtitle: "Investigating transcriptional regulation by TES epigenetic silencer"
+intro_text: |
+    This report aggregates quality control metrics from the Cut&Tag analysis pipeline.
+    The experiment investigates TES (TEAD1-KRAB-DNMT3A/3L) binding profiles compared to
+    endogenous TEAD1. NOTE: TESmut samples excluded from analysis (failed sample).
+
+report_comment: |
+    Samples:
+    - TES (3 replicates): Epigenetic silencer targeting TEAD1 sites
+    - TEAD1 (3 replicates): Endogenous TEAD1 for comparison
+    - IggMs/IggRb: Control antibodies
+    - NOTE: TESmut samples excluded (failed sample)
+
+# Custom sample name cleaning
+sample_names_rename:
+    's/_001//g':
+    's/_R1//g':
+    's/_R2//g':
+    's/_val_1//g':
+    's/_val_2//g':
+    's/_sorted//g':
+    's/_filtered//g':
+    's/_dedup//g':
+
+# Sample order (TESmut removed - failed sample)
+sample_names_order:
+    - TES-1
+    - TES-2
+    - TES-3
+    - TEAD1-1
+    - TEAD1-2
+    - TEAD1-3
+    - IggMs
+    - IggRb
+
+# Module order in report
+module_order:
+    - fastqc:
+        name: 'FastQC (Raw Reads)'
+        path_filters:
+            - '*_fastqc.zip'
+        path_filters_exclude:
+            - '*val*'
+    - cutadapt:
+        name: 'Trim Galore (Adapter Removal)'
+    - fastqc:
+        name: 'FastQC (Trimmed Reads)'
+        path_filters:
+            - '*val*_fastqc.zip'
+    - bowtie2:
+        name: 'Bowtie2 (Alignment)'
+    - samtools:
+        name: 'Samtools (Stats/Flagstat)'
+    - picard:
+        name: 'Picard (Duplicate Removal)'
+    - macs2:
+        name: 'MACS2 (Peak Calling)'
+    - deeptools:
+        name: 'deepTools (Coverage)'
+
+# Exclude unnecessary files
+fn_ignore_dirs:
+    - '*/logs/*'
+    - '*/scripts/*'
+    - '*/config/*'
+
+fn_ignore_files:
+    - '*.md5'
+    - '*.sh'
+    - '*.R'
+
+# Custom colors for sample groups (TESmut removed - failed sample)
+sample_colors:
+    TES-1: '#2E7D32'
+    TES-2: '#388E3C'
+    TES-3: '#43A047'
+    TEAD1-1: '#1976D2'
+    TEAD1-2: '#2196F3'
+    TEAD1-3: '#42A5F5'
+    IggMs: '#757575'
+    IggRb: '#9E9E9E'
+
+# Top modules to show
+top_modules:
+    - 'fastqc'
+    - 'bowtie2'
+    - 'samtools'
+    - 'macs2'
+
+# Extra content for report
+extra_fn_clean_exts:
+    - '.gz'
+    - '.fastq'
+    - '.fq'
+    - '.bam'
+    - '.sam'
+    - '.bed'
+    - type: 'regex'
+      pattern: '_peaks.narrowPeak'
+      replace: ''
+
+# Picard configuration
+picard_config:
+    duplicate_metrics:
+        - 'PERCENT_DUPLICATION'
+        - 'ESTIMATED_LIBRARY_SIZE'
+
+# MACS2 configuration  
+macs2_config:
+    peak_count:
+        - 'total_peaks'
+        - 'fc_over_10'
+    
+# Samtools configuration
+samtools_config:
+    flagstat:
+        - 'mapped_passed'
+        - 'properly_paired'
+    stats:
+        - 'error_rate'
+        - 'average_length'
+        - 'average_quality'

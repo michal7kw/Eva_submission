@@ -1,0 +1,23 @@
+Sample	PE mapped uniquely	PE multimapped	PE neither mate aligned
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggMs_bowtie2.log	7596128.0	4458726.0	59246377.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggRb_bowtie2.log	18329879.0	8797225.0	37319127.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-1_bowtie2.log	37242180.0	18892013.0	181114922.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-2_bowtie2.log	6706390.0	2796127.0	59368687.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-3_bowtie2.log	15868630.0	5460022.0	53338315.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-1_bowtie2.log	27028703.0	6434255.0	27357737.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-2_bowtie2.log	21366818.0	6151459.0	37622806.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-3_bowtie2.log	36091437.0	14336506.0	18651753.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_bowtie2.log	23693757.0	14393024.0	30349858.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_bowtie2.log	20316106.0	12240249.0	34041824.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_bowtie2.log	33176665.0	22885265.0	35160444.0
+IggMs_bowtie2	7596128.0	4458726.0	59246377.0
+IggRb_bowtie2	18329879.0	8797225.0	37319127.0
+TEAD1-1_bowtie2	37242180.0	18892013.0	181114922.0
+TEAD1-2_bowtie2	6706390.0	2796127.0	59368687.0
+TEAD1-3_bowtie2	15868630.0	5460022.0	53338315.0
+TES-1_bowtie2	27028703.0	6434255.0	27357737.0
+TES-2_bowtie2	21366818.0	6151459.0	37622806.0
+TES-3_bowtie2	36091437.0	14336506.0	18651753.0
+TESmut-1_bowtie2	23693757.0	14393024.0	30349858.0
+TESmut-2_bowtie2	20316106.0	12240249.0	34041824.0
+TESmut-3_bowtie2	33176665.0	22885265.0	35160444.0

@@ -1,0 +1,1 @@
+cmd = /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/08_homer_motifs/tmp/TES_peaks_homer.bed hg38 /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/08_homer_motifs/TES_peaks -size 200 -mask -p 8

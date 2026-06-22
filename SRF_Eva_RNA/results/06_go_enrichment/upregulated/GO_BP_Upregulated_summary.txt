@@ -1,0 +1,17 @@
+GO BP Enrichment Summary - Upregulated Genes
+===================================================
+Significant terms found: 1 
+P-value cutoff: 0.05
+Q-value cutoff: 0.2
+
+Top 10 enriched terms:
+                   ID                        Description GeneRatio  BgRatio
+GO:0045109 GO:0045109 intermediate filament organization   26/3774 39/13389
+           RichFactor FoldEnrichment   zScore       pvalue    p.adjust
+GO:0045109  0.6666667        2.36513 5.348719 6.497809e-07 0.003661516
+                qvalue
+GO:0045109 0.003621674
+                                                                                                                                                         geneID
+GO:0045109 KRT15/KRT16/KRT13/KRT17/KRT32/KRT14/KRT19/KRT6A/KRT36/KRT9/KRT35/KRT5/KRT75/KRT38/DSP/KRT20/KRT37/SHH/KRT39/BFSP1/KRT12/BBLN/NEFM/KLHL24/EPPK1/KRT23
+           Count
+GO:0045109    26

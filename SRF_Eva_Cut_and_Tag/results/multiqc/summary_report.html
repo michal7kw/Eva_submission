@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cut&Tag Analysis Summary: TES/TEAD1</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
+        h1 { color: #2E7D32; border-bottom: 3px solid #2E7D32; padding-bottom: 10px; }
+        h2 { color: #1976D2; margin-top: 30px; }
+        .container { background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .metric-box { display: inline-block; margin: 10px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #fafafa; }
+        .good { background-color: #E8F5E9; }
+        .warning { background-color: #FFF3E0; }
+        .bad { background-color: #FFEBEE; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #2E7D32; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        .hypothesis { background-color: #E3F2FD; padding: 15px; border-left: 5px solid #1976D2; margin: 20px 0; }
+        .conclusion { background-color: #F3E5F5; padding: 15px; border-left: 5px solid #7B1FA2; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cut&Tag Analysis Summary: TES/TEAD1 Epigenetic Study</h1>
+        
+        <div class="hypothesis">
+            <h3>Hypothesis</h3>
+            <p><strong>TES (TEAD1-KRAB-DNMT3A/3L)</strong> should bind to the same genomic targets as endogenous TEAD1.</p>
+            <p><em>Note: TESmut samples excluded from analysis (failed sample).</em></p>
+        </div>
+
+        <h2>Experimental Design</h2>
+        <table>
+            <tr>
+                <th>Condition</th>
+                <th>Description</th>
+                <th>Antibody</th>
+                <th>Control</th>
+                <th>Replicates</th>
+            </tr>
+            <tr>
+                <td>TES</td>
+                <td>TEAD1 binding domain + KRAB + DNMT3A/3L</td>
+                <td>V5 (mouse)</td>
+                <td>IggMs</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>TEAD1</td>
+                <td>Endogenous TEAD1</td>
+                <td>HA (rabbit)</td>
+                <td>IggRb</td>
+                <td>3</td>
+            </tr>
+        </table>
+        
+        <h2>Quality Control Summary</h2>
+        <div class="metric-box good">
+            <h4>✓ Sequencing Quality</h4>
+            <p>Check FastQC reports for quality scores >30</p>
+        </div>
+        <div class="metric-box good">
+            <h4>✓ Alignment Rates</h4>
+            <p>Target: >80% alignment rate</p>
+        </div>
+        <div class="metric-box good">
+            <h4>✓ Library Complexity</h4>
+            <p>Duplication rate should be <30%</p>
+        </div>
+        
+        <h2>Key Results</h2>
+        <p>Review the following key outputs:</p>
+        <ul>
+            <li><strong>Peak Overlap:</strong> Check TES vs TEAD1 overlap in <code>results/07_analysis_narrow/TES_TEAD1_overlap.bed</code></li>
+            <li><strong>Differential Binding:</strong> Review DiffBind results in <code>results/07_analysis_narrow/DiffBind_*.csv</code></li>
+            <li><strong>Motif Analysis:</strong> Check HOMER results for TEAD motif enrichment</li>
+            <li><strong>Target Genes:</strong> Review annotated peaks in <code>results/07_analysis_narrow/*_annotated.csv</code></li>
+        </ul>
+
+        <div class="conclusion">
+            <h3>Expected Outcomes</h3>
+            <ol>
+                <li><strong>High overlap</strong> between TES and TEAD1 peaks (>50%)</li>
+                <li><strong>TEAD motif enrichment</strong> in both TES and TEAD1 peaks</li>
+                <li><strong>Common target genes</strong> involved in cell proliferation and stemness</li>
+            </ol>
+            <p><em>Note: TESmut samples excluded from analysis (failed sample).</em></p>
+        </div>
+        
+        <h2>Report Files</h2>
+        <ul>
+            <li><a href="TES_TEAD1_CutTag_Report.html">Full MultiQC Report</a></li>
+            <li><a href="custom_stats.txt">Custom Statistics Summary</a></li>
+            <li><a href="../07_analysis/">Analysis Results Directory</a></li>
+        </ul>
+        
+        <hr>
+        <p><small>Generated: <script>document.write(new Date().toLocaleString());</script></small></p>
+    </div>
+</body>
+</html>

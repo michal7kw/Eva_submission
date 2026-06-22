@@ -1,0 +1,8 @@
+Sample              Total_Reads  Reads_in_Peaks       FRiP    Quality
+------              -----------  --------------       ----    -------
+TES-1                  55243076        21789096      39.4%  Excellent
+TES-2                  45090978        19957799      44.3%  Excellent
+TES-3                  69616110        25947068      37.3%  Excellent
+TEAD1-1                67864354        48003626      70.7%  Excellent
+TEAD1-2                12849684         7648925      59.5%  Excellent
+TEAD1-3                31605052        18976647      60.0%  Excellent

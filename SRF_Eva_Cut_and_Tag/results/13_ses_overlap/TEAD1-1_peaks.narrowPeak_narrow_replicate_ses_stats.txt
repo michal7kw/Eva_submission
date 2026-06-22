@@ -1,0 +1,8 @@
+Sample: TEAD1-1_peaks.narrowPeak
+Peak Type: narrow_replicate
+Total TEAD1-1_peaks.narrowPeak peaks: 180270
+TEAD1-1_peaks.narrowPeak peaks overlapping SES: 0
+Percentage of TEAD1-1_peaks.narrowPeak peaks overlapping SES: 0%
+SES peaks overlapped by TEAD1-1_peaks.narrowPeak: 0
+Total SES consensus peaks: 
+Percentage of SES peaks covered by TEAD1-1_peaks.narrowPeak: 0%

@@ -1,0 +1,90 @@
+==============================================================================
+MIGRATION-FOCUSED GSEA ANALYSIS SUMMARY
+==============================================================================
+
+Generated: 2026-01-21 16:14:11.553329
+
+METHOD
+------
+Algorithm: fgsea (Fast Gene Set Enrichment Analysis)
+Ranking metric: log2FoldChange (TES vs GFP)
+Total genes ranked: 33938
+Gene sets tested: 224
+Permutations: 10,000
+Gene set size filter: 15-500 genes
+Significance threshold: FDR < 0.10 (relaxed)
+
+GENE SET SOURCES
+----------------
+  Custom: 1 gene sets
+  GO:BP: 191 gene sets
+  Hallmark: 5 gene sets
+  KEGG: 4 gene sets
+  Reactome: 23 gene sets
+
+RESULTS OVERVIEW
+----------------
+Total significant pathways: 15
+  Enriched (NES > 0, up in TES): 2
+  Depleted (NES < 0, down in TES): 13
+
+BY SOURCE:
+  Hallmark: 1 total (0 enriched, 1 depleted)
+  Reactome: 4 total (0 enriched, 4 depleted)
+  GO:BP: 10 total (2 enriched, 8 depleted)
+
+TOP 10 ENRICHED PATHWAYS (Up in TES)
+------------------------------------
+ 1. GOBP_DENDRITIC_CELL_CHEMOTAXIS
+    NES=1.73, FDR=8.17e-02, Size=17
+ 2. GOBP_DENDRITIC_CELL_MIGRATION
+    NES=1.73, FDR=8.17e-02, Size=24
+
+TOP 10 DEPLETED PATHWAYS (Down in TES)
+--------------------------------------
+ 1. REACTOME_CROSSLINKING_OF_COLLAGEN_FIBRILS
+    NES=-2.12, FDR=4.31e-03, Size=17
+ 2. HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
+    NES=-2.06, FDR=4.41e-07, Size=188
+ 3. REACTOME_NON_INTEGRIN_MEMBRANE_ECM_INTERACTIONS
+    NES=-1.84, FDR=1.15e-02, Size=76
+ 4. REACTOME_COLLAGEN_CHAIN_TRIMERIZATION
+    NES=-1.70, FDR=8.17e-02, Size=41
+ 5. REACTOME_ASSEMBLY_OF_COLLAGEN_FIBRILS_AND_OTHER_MULTIMERIC_STRUCTURES
+    NES=-1.66, FDR=8.23e-02, Size=57
+ 6. GOBP_REGULATION_OF_CELL_MIGRATION_INVOLVED_IN_SPROUTING_ANGIOGENESIS
+    NES=-1.64, FDR=8.17e-02, Size=46
+ 7. GOBP_POSITIVE_REGULATION_OF_BLOOD_VESSEL_ENDOTHELIAL_CELL_MIGRATION
+    NES=-1.62, FDR=8.17e-02, Size=62
+ 8. GOBP_SMOOTH_MUSCLE_CELL_MIGRATION
+    NES=-1.61, FDR=8.17e-02, Size=68
+ 9. GOBP_POSITIVE_REGULATION_OF_ENDOTHELIAL_CELL_MIGRATION
+    NES=-1.57, FDR=7.38e-02, Size=113
+10. GOBP_FOCAL_ADHESION_ASSEMBLY
+    NES=-1.55, FDR=8.17e-02, Size=81
+
+KEY FINDINGS
+------------
+EMT-related pathways: 1 (0 enriched, 1 depleted)
+Migration/Motility pathways: 6 (1 enriched, 5 depleted)
+Cell adhesion pathways: 4 (0 enriched, 4 depleted)
+Chemotaxis pathways: 1 (1 enriched, 0 depleted)
+
+OUTPUT FILES
+------------
+Results:
+  - all_migration_gsea_results.csv
+  - significant_migration_pathways.csv
+  - leading_edge_genes.csv
+
+Plots:
+  - 01_migration_gsea_enrichment_*.png (clean, publication-ready)
+  - 01_migration_gsea_enrichment_*_annotated.png (with NES/FDR stats)
+  - 02_migration_pathways_dotplot.png
+  - 03_migration_nes_lollipop.png
+
+Plot style:
+  - 3-panel layout: enrichment curve, gene barcode, TES/GFP gradient
+  - Matches SRF_Eva_RNA/scripts/6_gsea_analysis.R format
+
+==============================================================================

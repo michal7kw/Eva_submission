@@ -1,0 +1,45 @@
+Sample	Reads passing filters
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggMs_R1_001.fastq.gz	71369603.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggMs_R2_001.fastq.gz	71369603.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggRb_R1_001.fastq.gz	64522013.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | IggRb_R2_001.fastq.gz	64522013.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-1_R1_001.fastq.gz	237691306.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-1_R2_001.fastq.gz	237691306.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-2_R1_001.fastq.gz	68939939.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-2_R2_001.fastq.gz	68939939.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-3_R1_001.fastq.gz	74746716.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TEAD1-3_R2_001.fastq.gz	74746716.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-1_R1_001.fastq.gz	60876267.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-1_R2_001.fastq.gz	60876267.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-2_R1_001.fastq.gz	65179879.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-2_R2_001.fastq.gz	65179879.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-3_R1_001.fastq.gz	69142383.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 02_trimmed | TES-3_R2_001.fastq.gz	69142383.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_R1_001.fastq.gz	68515115.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_R2_001.fastq.gz	68515115.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_R1_001.fastq.gz	66652695.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_R2_001.fastq.gz	66652695.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_R1_001.fastq.gz	91417874.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_R2_001.fastq.gz	91417874.0
+IggMs_R1_001	71369603.0
+IggMs_R2_001	71369603.0
+IggRb_R1_001	64522013.0
+IggRb_R2_001	64522013.0
+TEAD1-1_R1_001	237691306.0
+TEAD1-1_R2_001	237691306.0
+TEAD1-2_R1_001	68939939.0
+TEAD1-2_R2_001	68939939.0
+TEAD1-3_R1_001	74746716.0
+TEAD1-3_R2_001	74746716.0
+TES-1_R1_001	60876267.0
+TES-1_R2_001	60876267.0
+TES-2_R1_001	65179879.0
+TES-2_R2_001	65179879.0
+TES-3_R1_001	69142383.0
+TES-3_R2_001	69142383.0
+TESmut-1_R1_001	68515115.0
+TESmut-1_R2_001	68515115.0
+TESmut-2_R1_001	66652695.0
+TESmut-2_R2_001	66652695.0
+TESmut-3_R1_001	91417874.0
+TESmut-3_R2_001	91417874.0

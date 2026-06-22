@@ -1,0 +1,10 @@
+"Sample","Analysis","Significant_Terms"
+"TES","GO_cell_death",179
+"TES","GO_proliferation",362
+"TES","KEGG",28
+"TESmut","GO_cell_death",179
+"TESmut","GO_proliferation",361
+"TESmut","KEGG",28
+"TEAD1","GO_cell_death",179
+"TEAD1","GO_proliferation",360
+"TEAD1","KEGG",28

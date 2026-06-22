@@ -1,0 +1,12 @@
+Sample	LIBRARY	UNPAIRED_READS_EXAMINED	READ_PAIRS_EXAMINED	SECONDARY_OR_SUPPLEMENTARY_RDS	UNMAPPED_READS	UNPAIRED_READ_DUPLICATES	READ_PAIR_DUPLICATES	READ_PAIR_OPTICAL_DUPLICATES	PERCENT_DUPLICATION	ESTIMATED_LIBRARY_SIZE
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggMs_with_rg.bam	lib1	0.0	12054854.0	0.0	118492754.0	0.0	9390594.0	214430.0	0.778989	2697747.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggRb_with_rg.bam	lib1	0.0	27127104.0	0.0	74638254.0	0.0	24466452.0	470371.0	0.901919	2660770.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-1_with_rg.bam	lib1	0.0	56134193.0	0.0	362229844.0	0.0	53268065.0	940647.0	0.948941	2866128.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-2_with_rg.bam	lib1	0.0	9502517.0	0.0	118737374.0	0.0	7906296.0	208926.0	0.832021	1601045.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-3_with_rg.bam	lib1	0.0	21328652.0	0.0	106676630.0	0.0	19451135.0	474227.0	0.911972	1877545.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-1_with_rg.bam	lib1	0.0	33462958.0	0.0	54715474.0	0.0	17070881.0	905918.0	0.510143	20671183.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-2_with_rg.bam	lib1	0.0	27518277.0	0.0	75245612.0	0.0	23512139.0	338927.0	0.854419	4010710.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-3_with_rg.bam	lib1	0.0	50427943.0	0.0	37303506.0	0.0	30343872.0	1071046.0	0.601727	22644901.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_with_rg.bam	lib1	0.0	38086781.0	0.0	60699716.0	0.0	26837916.0	665411.0	0.704652	11732055.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_with_rg.bam	lib1	0.0	32556355.0	0.0	68083648.0	0.0	23143436.0	593972.0	0.710873	9786347.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_with_rg.bam	lib1	0.0	56061930.0	0.0	70320888.0	0.0	40912500.0	748198.0	0.729773	15599357.0

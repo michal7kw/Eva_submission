@@ -1,0 +1,71 @@
+================================================================================
+HOMER MOTIF ANALYSIS - EXECUTIVE SUMMARY
+================================================================================
+
+## TEAD FAMILY MOTIF ENRICHMENT
+----------------------------------------
+Condition TF_Name  Pct_Target  Fold_Enrichment       P_value
+    TEAD1   TEAD2       20.63         4.218814  0.000000e+00
+    TEAD1    TEAD       28.09         3.901389  0.000000e+00
+    TEAD1   TEAD4       29.74         3.644608  0.000000e+00
+    TEAD1   TEAD1       34.63         3.445771  0.000000e+00
+    TEAD1   TEAD3       36.93         3.113828  0.000000e+00
+      TES   TEAD4       19.50         2.386781  0.000000e+00
+      TES    TEAD       17.70         2.350598 9.881313e-324
+      TES   TEAD1       22.90         2.258383  0.000000e+00
+      TES   TEAD3       25.25         2.107679  0.000000e+00
+
+
+## TOP 10 ENRICHED MOTIFS PER CONDITION
+----------------------------------------
+
+### TES
+TF_Name TF_Family    Consensus  Pct_Target  Fold_Enrichment
+   Fra1      bZIP NNATGASTCATH       26.28         5.407407
+    Fos      bZIP NDATGASTCAYN       26.77         5.128352
+   BATF      bZIP   DATGASTCAT       27.76         4.836237
+   Atf3      bZIP DATGASTCATHN       27.95         4.777778
+   JunB      bZIP   RATGASTCAT       25.38         5.309623
+   Fra2      bZIP GGATGACTCATC       23.42         5.855000
+   AP-1      bZIP   VTGACTCATC       28.51         4.339422
+  Fosl2      bZIP NATGASTCABNN       17.71         7.141129
+Jun-AP1      bZIP GATGASTCATCN       14.37         8.502959
+   Sox3       HMG     CCWTTGTY       36.16         2.047565
+
+### TEAD1
+TF_Name TF_Family    Consensus  Pct_Target  Fold_Enrichment
+    Fos      bZIP NDATGASTCAYN       25.90         5.029126
+   Atf3      bZIP DATGASTCATHN       27.18         4.743455
+   Fra1      bZIP NNATGASTCATH       25.09         5.194617
+   BATF      bZIP   DATGASTCAT       26.92         4.756184
+   Fra2      bZIP GGATGACTCATC       22.35         5.701531
+   AP-1      bZIP   VTGACTCATC       28.00         4.334365
+  TEAD1      TEAD   CYRCATTCCA       34.63         3.445771
+   JunB      bZIP   RATGASTCAT       23.96         5.119658
+  TEAD3       TEA   TRCATTCCAG       36.93         3.113828
+   TEAD       TEA   YCWGGAATGY       28.09         3.901389
+
+
+## TOP DE NOVO DISCOVERED MOTIFS
+----------------------------------------
+
+### TES
+ Rank  Consensus  Pct_Target  Fold_Enrichment P_value
+    1 ATGASTCATN       24.99             5.59 1e-3328
+    2 VTGANTMAKC       31.61             3.34 1e-2537
+    3 NDMACAATRG       35.10             2.06 1e-1259
+    4 WAACCACARA       20.47             2.81 1e-1199
+    5 SHNWRGAATG       34.49             1.81  1e-891
+
+### TEAD1
+ Rank  Consensus  Pct_Target  Fold_Enrichment P_value
+    1 VSRCATTCCT       41.41             3.28 1e-2310
+    2 ATGASTCATN       27.52             4.81 1e-2168
+    3 DGMATKCYTN       53.84             1.77 1e-1065
+    4 NACATTCYTN       21.35             2.64  1e-761
+    5 CWTTGTBNNN       36.86             1.79  1e-633
+
+================================================================================
+Key: Pct_Target = % of peaks containing motif
+     Fold_Enrichment = Target% / Background%
+================================================================================

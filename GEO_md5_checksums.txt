@@ -1,0 +1,109 @@
+# MD5 Checksums for GEO Submission
+# Generated: 2026-01-19
+# Project: TES/TEAD1 transcriptional regulation in SNB19 glioblastoma cells
+
+================================================================================
+RNA-seq Raw Data (FASTQ files)
+Location: /beegfs/scratch/ric.sessa/kubacki.michal/download/TES_RNA/TES/
+================================================================================
+
+# GFP Control Samples
+ad927a8ae069e79c68aa4bc89f386fb8  ASE01_GFP1_R1_001.fastq.gz
+f305f26f9ce03c890dec112e3caac1eb  ASE01_GFP1_R2_001.fastq.gz
+09ea97bafdd39a0d321285b7ee263d6e  ASE01_GFP2_R1_001.fastq.gz
+d2ea5d7908168084fdc71f021a72b9c4  ASE01_GFP2_R2_001.fastq.gz
+9288a0610b533b78e507ee63f2bdbb10  ASE01_GFP3_R1_001.fastq.gz
+6bf6c5eecd345d4705ea40e06d8ca67d  ASE01_GFP3_R2_001.fastq.gz
+
+# TES Treatment Samples
+319a729be952d1b8d49070bd2171696a  ASE01_TES1_R1_001.fastq.gz
+fa96536715b723a1a36b4282d9dad470  ASE01_TES1_R2_001.fastq.gz
+542e2c8ebf60346fdf445f2befaca376  ASE01_TES2_R1_001.fastq.gz
+60f3c6b78e251dad648c15a27a95b710  ASE01_TES2_R2_001.fastq.gz
+da74e809d1f19666008fb2a0cb538057  ASE01_TES3_R1_001.fastq.gz
+4aeaed403a4705e35cae0a407e8f8fb0  ASE01_TES3_R2_001.fastq.gz
+
+================================================================================
+RNA-seq Processed Data
+Location: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_RNA/results/
+================================================================================
+
+a1372b63ced5efa0f73927e5a4a8e6ee  count_matrix.txt
+016539e79ce75a52f6c96081b236c407  normalized_counts.txt
+b6d5fdc192a483d409bf33c194479515  deseq2_results_TES_vs_GFP.txt
+
+================================================================================
+Cut&Tag Raw Data (FASTQ files)
+Location: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/90-1222471453/00_fastq/
+================================================================================
+
+# TES Samples (anti-FLAG)
+cf808f26f5ad2ba6cd966aafc15462f4  TES-1_R1_001.fastq.gz
+b08d66c896ebeded2c48b3c8b06a945e  TES-1_R2_001.fastq.gz
+affd080bfc3de3214dc11076c22f3c83  TES-2_R1_001.fastq.gz
+71d2d6c3e1e5e1429ceae5a408b79f43  TES-2_R2_001.fastq.gz
+2ecbdc5593f197505090d72cb40e2366  TES-3_R1_001.fastq.gz
+06b62b4c14becbdde46f66da2f0df110  TES-3_R2_001.fastq.gz
+
+# TEAD1 Samples
+885aa17f434b14367fd832efe38f0e24  TEAD1-1_R1_001.fastq.gz
+f2121e04b955087b99fcf78a89007437  TEAD1-1_R2_001.fastq.gz
+ab10550fb75a442ee83bf3890161b08e  TEAD1-2_R1_001.fastq.gz
+3d607ee635a39540f9297b10832e14f9  TEAD1-2_R2_001.fastq.gz
+662f851443b6674a2f0b10b52cfe4ea2  TEAD1-3_R1_001.fastq.gz
+04e5bd862ceb4090b6bac7ec90ec7b22  TEAD1-3_R2_001.fastq.gz
+
+# IgG Control Samples
+1a04a2a245855c8c882a9091811216fe  IggMs_R1_001.fastq.gz
+6fe077454eb3b044d4928f675b081b65  IggMs_R2_001.fastq.gz
+8265e90924308ad153c01cefaf30d890  IggRb_R1_001.fastq.gz
+c284d4f7176d49f7551107e348799ece  IggRb_R2_001.fastq.gz
+
+================================================================================
+Cut&Tag Processed Data - Filtered BAM files
+Location: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/04_filtered/
+================================================================================
+
+bd1a0301072af6755b84b2fe65e07acf  TES-1_filtered.bam
+d8e0e233fd0edc897a812b1a9d8606c5  TES-2_filtered.bam
+3661acca18ab5b84368d9f0b136e2694  TES-3_filtered.bam
+a665bf611d6f8acf2415e8b2fa72b1d6  TEAD1-1_filtered.bam
+62e9b4ac71292ec93c11124178e654ab  TEAD1-2_filtered.bam
+e7122403a3ddddc751af9a8e2be74335  TEAD1-3_filtered.bam
+5e09abe092549e28e46e33a90fd104d4  IggMs_filtered.bam
+20e68f94e7260955081ad1289ec93066  IggRb_filtered.bam
+
+================================================================================
+Cut&Tag Processed Data - BigWig coverage tracks (CPM normalized)
+Location: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/06_bigwig/
+================================================================================
+
+8bbfc34c1dd2b78e2d263e08463be953  TES-1_CPM.bw
+9441ef8f6d2d355b3250af9d8aa240c4  TES-2_CPM.bw
+19dc8644270c69de599e46d5dc85e221  TES-3_CPM.bw
+5ae5cc6efd2ee0be8c2e658264af2bba  TEAD1-1_CPM.bw
+2902640385e819f01be2efa1dc3477df  TEAD1-2_CPM.bw
+069072878d0692f4436041ea5beb0ee3  TEAD1-3_CPM.bw
+72ecdc0b47317bbb7c89568a5e24ae31  IggMs_CPM.bw
+4b0660c6adeabd7739fc8b8e8a429555  IggRb_CPM.bw
+
+================================================================================
+Cut&Tag Processed Data - Peak files (narrowPeak format)
+Location: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Eva_top/SRF_Eva_CUTandTAG/results/05_peaks_narrow/
+================================================================================
+
+# Combined replicate peaks
+ffbf1ccba3cabe4cec7323ad6c7ec26a  TES_peaks.narrowPeak
+9c3d702cfb0c7019399fe4bf27a1b447  TEAD1_peaks.narrowPeak
+
+# Individual replicate peaks
+122ad3a67d505f31db878133f69a5870  TES-1_peaks.narrowPeak
+de0fb3624ec6e48bb9d9154d4fed0d32  TES-2_peaks.narrowPeak
+d823736e7d97d50d5232b7a7c301c653  TES-3_peaks.narrowPeak
+b1e26e8f4c71cd51ba55c3f3833c8552  TEAD1-1_peaks.narrowPeak
+ad0c29cd0bff047610fba3ee6125b5cc  TEAD1-2_peaks.narrowPeak
+1ba86bf44467f145c0aba54470205d92  TEAD1-3_peaks.narrowPeak
+
+================================================================================
+END OF CHECKSUMS
+================================================================================

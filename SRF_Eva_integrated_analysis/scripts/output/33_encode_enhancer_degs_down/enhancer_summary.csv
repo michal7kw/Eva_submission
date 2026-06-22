@@ -1,0 +1,5 @@
+"Category","N_enhancers","Description"
+"TES_bound_DEGs_DOWN",5019,"ENCODE enhancers of DEGs DOWN, overlapping TES peaks"
+"TEAD1_only_DEGs_DOWN",4593,"ENCODE enhancers of DEGs DOWN, overlapping TEAD1 only"
+"Unbound_DEGs_DOWN",141524,"ENCODE enhancers of DEGs DOWN, no TF overlap"
+"Control",5019,"ENCODE enhancers of non-DE genes (matched control)"

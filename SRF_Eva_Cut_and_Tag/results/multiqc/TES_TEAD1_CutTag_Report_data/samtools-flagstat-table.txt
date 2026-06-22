@@ -1,0 +1,45 @@
+Sample	Total Reads	Total Passed QC	Mapped	Duplicates	Paired in Sequencing	Properly Paired	Self and mate mapped	Singletons	Mate mapped to diff chr	Diff chr (mapQ >= 5)
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggMs_flagstat.txt	142.602462	142.602462	24.109707999999998	0.0	142.602462	24.109707999999998	24.109707999999998	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | IggRb_flagstat.txt	128.892462	128.892462	54.254208	0.0	128.892462	54.254208	54.254208	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-1_flagstat.txt	474.49823	474.49823	112.26838599999999	0.0	474.49823	112.26838599999999	112.26838599999999	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-2_flagstat.txt	137.74240799999998	137.74240799999998	19.005034	0.0	137.74240799999998	19.005034	19.005034	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TEAD1-3_flagstat.txt	149.333934	149.333934	42.657303999999996	0.0	149.333934	42.657303999999996	42.657303999999996	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-1_flagstat.txt	121.64139	121.64139	66.925916	0.0	121.64139	66.925916	66.925916	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-2_flagstat.txt	130.282166	130.282166	55.036553999999995	0.0	130.282166	55.036553999999995	55.036553999999995	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 03_aligned | TES-3_flagstat.txt	138.159392	138.159392	100.855886	0.0	138.159392	100.855886	100.855886	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggMs_filtered_flagstat.txt	3.8497839999999997	3.8497839999999997	3.8497839999999997	0.0	3.8497839999999997	3.8497839999999997	3.8497839999999997	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | IggRb_filtered_flagstat.txt	3.7353419999999997	3.7353419999999997	3.7353419999999997	0.0	3.7353419999999997	3.7353419999999997	3.7353419999999997	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-1_filtered_flagstat.txt	3.951266	3.951266	3.951266	0.0	3.951266	3.951266	3.951266	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-2_filtered_flagstat.txt	2.335612	2.335612	2.335612	0.0	2.335612	2.335612	2.335612	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TEAD1-3_filtered_flagstat.txt	2.7608479999999997	2.7608479999999997	2.7608479999999997	0.0	2.7608479999999997	2.7608479999999997	2.7608479999999997	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-1_filtered_flagstat.txt	28.016835999999998	28.016835999999998	28.016835999999998	0.0	28.016835999999998	28.016835999999998	28.016835999999998	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-2_filtered_flagstat.txt	5.709934	5.709934	5.709934	0.0	5.709934	5.709934	5.709934	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | 04_filtered | TES-3_filtered_flagstat.txt	33.780698	33.780698	33.780698	0.0	33.780698	33.780698	33.780698	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_filtered_flagstat.txt	16.110684	16.110684	16.110684	0.0	16.110684	16.110684	16.110684	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-1_flagstat.txt	136.873278	136.873278	76.17356199999999	0.0	136.873278	76.17356199999999	76.17356199999999	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_filtered_flagstat.txt	12.535344	12.535344	12.535344	0.0	12.535344	12.535344	12.535344	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-2_flagstat.txt	133.196358	133.196358	65.11270999999999	0.0	133.196358	65.11270999999999	65.11270999999999	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_filtered_flagstat.txt	21.252378	21.252378	21.252378	0.0	21.252378	21.252378	21.252378	0.0	0.0	0.0
+/ | beegfs | scratch | ric.sessa | kubacki.michal | SRF_Eva_top | SRF_Eva_CUTandTAG | results | Legacy | TESmut-3_flagstat.txt	182.444748	182.444748	112.12386	0.0	182.444748	112.12386	112.12386	0.0	0.0	0.0
+IggMs_filtered_flagstat	3.8497839999999997	3.8497839999999997	3.8497839999999997	0.0	3.8497839999999997	3.8497839999999997	3.8497839999999997	0.0	0.0	0.0
+IggMs_flagstat	142.602462	142.602462	24.109707999999998	0.0	142.602462	24.109707999999998	24.109707999999998	0.0	0.0	0.0
+IggRb_filtered_flagstat	3.7353419999999997	3.7353419999999997	3.7353419999999997	0.0	3.7353419999999997	3.7353419999999997	3.7353419999999997	0.0	0.0	0.0
+IggRb_flagstat	128.892462	128.892462	54.254208	0.0	128.892462	54.254208	54.254208	0.0	0.0	0.0
+TEAD1-1_filtered_flagstat	3.951266	3.951266	3.951266	0.0	3.951266	3.951266	3.951266	0.0	0.0	0.0
+TEAD1-1_flagstat	474.49823	474.49823	112.26838599999999	0.0	474.49823	112.26838599999999	112.26838599999999	0.0	0.0	0.0
+TEAD1-2_filtered_flagstat	2.335612	2.335612	2.335612	0.0	2.335612	2.335612	2.335612	0.0	0.0	0.0
+TEAD1-2_flagstat	137.74240799999998	137.74240799999998	19.005034	0.0	137.74240799999998	19.005034	19.005034	0.0	0.0	0.0
+TEAD1-3_filtered_flagstat	2.7608479999999997	2.7608479999999997	2.7608479999999997	0.0	2.7608479999999997	2.7608479999999997	2.7608479999999997	0.0	0.0	0.0
+TEAD1-3_flagstat	149.333934	149.333934	42.657303999999996	0.0	149.333934	42.657303999999996	42.657303999999996	0.0	0.0	0.0
+TES-1_filtered_flagstat	28.016835999999998	28.016835999999998	28.016835999999998	0.0	28.016835999999998	28.016835999999998	28.016835999999998	0.0	0.0	0.0
+TES-1_flagstat	121.64139	121.64139	66.925916	0.0	121.64139	66.925916	66.925916	0.0	0.0	0.0
+TES-2_filtered_flagstat	5.709934	5.709934	5.709934	0.0	5.709934	5.709934	5.709934	0.0	0.0	0.0
+TES-2_flagstat	130.282166	130.282166	55.036553999999995	0.0	130.282166	55.036553999999995	55.036553999999995	0.0	0.0	0.0
+TES-3_filtered_flagstat	33.780698	33.780698	33.780698	0.0	33.780698	33.780698	33.780698	0.0	0.0	0.0
+TES-3_flagstat	138.159392	138.159392	100.855886	0.0	138.159392	100.855886	100.855886	0.0	0.0	0.0
+TESmut-1_filtered_flagstat	16.110684	16.110684	16.110684	0.0	16.110684	16.110684	16.110684	0.0	0.0	0.0
+TESmut-1_flagstat	136.873278	136.873278	76.17356199999999	0.0	136.873278	76.17356199999999	76.17356199999999	0.0	0.0	0.0
+TESmut-2_filtered_flagstat	12.535344	12.535344	12.535344	0.0	12.535344	12.535344	12.535344	0.0	0.0	0.0
+TESmut-2_flagstat	133.196358	133.196358	65.11270999999999	0.0	133.196358	65.11270999999999	65.11270999999999	0.0	0.0	0.0
+TESmut-3_filtered_flagstat	21.252378	21.252378	21.252378	0.0	21.252378	21.252378	21.252378	0.0	0.0	0.0
+TESmut-3_flagstat	182.444748	182.444748	112.12386	0.0	182.444748	112.12386	112.12386	0.0	0.0	0.0

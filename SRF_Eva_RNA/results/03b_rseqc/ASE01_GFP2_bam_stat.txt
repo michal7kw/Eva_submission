@@ -1,0 +1,1 @@
+/var/spool/slurmd/job8539905/slurm_script: line 178: bam_stat.py: command not found

@@ -1,0 +1,8 @@
+Methylation Difference (TES - GFP) at Enhancers:
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  g1_diff and g2_diff
+W = 45358632, p-value = 0.0009491
+alternative hypothesis: true location shift is not equal to 0
+
