@@ -34,15 +34,17 @@ setwd(DESEQ_DIR)
 
 TEAD_GENES <- c("TEAD1", "TEAD2", "TEAD3", "TEAD4") # fixed row order (top -> bottom)
 
-# Wide canvas so the long row labels (gene + log2FC/padj), all 6 columns, and the
-# condition legend all fit without clipping the title or edges.
-PLOT_WIDTH <- 16
-PLOT_HEIGHT <- 6.5
+# Row labels are now just gene symbols (log2FC/padj moved to a side annotation),
+# so the canvas no longer needs to be as wide as when labels were long strings.
+# Height must fit the three stacked legends (condition + Significance + log2FC)
+# plus the z-score colorbar without clipping the bottom swatch.
+PLOT_WIDTH <- 11
+PLOT_HEIGHT <- 6.8
 DPI <- 300
 
-FONTSIZE_LEGEND <- 16
-FONTSIZE_ROW <- 16
-FONTSIZE_COL <- 16
+FONTSIZE_LEGEND <- 14
+FONTSIZE_ROW <- 17   # gene symbols, slightly larger now that they stand alone
+FONTSIZE_COL <- 12   # small enough that horizontal "Mock 1".."TES 3" don't collide
 
 # Color palette: identical to heatmap_publication.R (dark blue -> white -> red)
 color_palette <- colorRampPalette(c(
@@ -53,9 +55,30 @@ color_palette <- colorRampPalette(c(
     "#EF3B2C", "#CB181D", "#A50F15", "#67000D"
 ))(100)
 
-# Condition colors reuse the project convention (GFP/Mock red, TES teal)
+# Annotation colors. All three annotation legends use *discrete* swatches so they
+# read as one tidy stacked block, visually separate from the main red<->blue
+# z-score colorbar:
+#   - condition  : project convention (Mock red, TES teal)
+#   - log2FC     : binned, purple (up in TES) <-> green (down) -- PRGn endpoints,
+#                  deliberately NOT red/blue so it isn't confused with the z-score
+#   - Significance: grey -> black ramp by padj
+# Levels are ordered up->down / strong->weak so each legend reads top-to-bottom.
+LOG2FC_LEVELS <- c(">= +1", "0 to +1", "-1 to 0", "<= -1")
+SIG_LEVELS <- c("ns", "*", "**", "***")
 annotation_colors <- list(
-    condition = c("Mock" = "#921100", "TES" = "#069093")
+    condition = c("Mock" = "#921100", "TES" = "#069093"),
+    log2FC = c(
+        ">= +1"   = "#762A83",  # dark purple  (strong up)
+        "0 to +1" = "#C2A5CF",  # light purple (up)
+        "-1 to 0" = "#A6DBA0",  # light green  (mild down)
+        "<= -1"   = "#1B7837"   # dark green   (strong down)
+    ),
+    Significance = c(
+        "ns"  = "#E8E8E8",
+        "*"   = "#BDBDBD",
+        "**"  = "#737373",
+        "***" = "#252525"
+    )
 )
 
 # ===============================================================================
@@ -154,13 +177,38 @@ gene_ids <- unlist(tead_rows[TEAD_GENES[TEAD_GENES %in% names(tead_rows)]])
 mat <- as.matrix(counts[gene_ids, sample_order])
 rownames(mat) <- names(gene_ids) # TEAD symbols
 
-# Row labels annotated with log2FC / padj so the up/down story is explicit
+# Pull log2FC / padj for each TEAD gene; these now ride in a side annotation bar
+# (annotation_row) instead of being crammed into the row label text.
 lfc <- res$log2FoldChange[match(gsub("\\..*", "", gene_ids), res$ensembl_clean)]
 padj <- res$padj[match(gsub("\\..*", "", gene_ids), res$ensembl_clean)]
-row_labels <- sprintf("%s  (log2FC %+.2f, padj %.1e)", rownames(mat), lfc, padj)
+
+# padj -> significance stars (ns / * / ** / ***); NA padj treated as ns
+sig_stars <- cut(padj,
+    breaks = c(-Inf, 1e-3, 1e-2, 5e-2, Inf),
+    labels = c("***", "**", "*", "ns")
+)
+sig_stars <- factor(as.character(sig_stars), levels = SIG_LEVELS)
+sig_stars[is.na(sig_stars)] <- "ns"
+
+# log2FC -> discrete bins so its legend is a tidy swatch block (not a gradient)
+log2fc_bin <- cut(lfc,
+    breaks = c(-Inf, -1, 0, 1, Inf),
+    labels = c("<= -1", "-1 to 0", "0 to +1", ">= +1")
+)
+log2fc_bin <- factor(as.character(log2fc_bin), levels = LOG2FC_LEVELS)
+
+# annotation_row is matched to the heatmap by rownames (= gene symbols).
+# Order: log2FC (effect) then Significance (confidence).
+annotation_row <- data.frame(
+    log2FC = log2fc_bin,
+    Significance = sig_stars,
+    row.names = rownames(mat),
+    stringsAsFactors = FALSE
+)
 
 cat("\nTEAD expression summary (TES vs Mock):\n")
-print(data.frame(gene = rownames(mat), log2FC = round(lfc, 2), padj = signif(padj, 3)))
+print(data.frame(gene = rownames(mat), log2FC = round(lfc, 2),
+    padj = signif(padj, 3), sig = as.character(sig_stars)))
 
 # Row z-score (same approach as the template), capped at +/-2
 mat_scaled <- t(scale(t(mat)))
@@ -175,30 +223,36 @@ mat_scaled[is.infinite(mat_scaled)] <- 0
 
 dir.create("plots", showWarnings = FALSE)
 
-draw_heatmap <- function(labels_row, show_rownames) {
+# show_rownames + annotation_row are toggled together: the labelled variant shows
+# gene symbols and the log2FC/Significance bars; the no-label variant is a clean
+# cells-only heatmap (just the column condition bar) for figure assembly.
+draw_heatmap <- function(show_rownames, annotation_row_arg) {
     pheatmap(
         mat_scaled,
         color = color_palette,
         breaks = seq(-2, 2, length.out = 101),
         cluster_rows = FALSE,
         cluster_cols = FALSE,
-        show_rownames = show_rownames,
-        labels_row = labels_row,
+        show_rownames = show_rownames,   # rownames(mat_scaled) = gene symbols
         show_colnames = TRUE,
         labels_col = col_labels,
         annotation_col = sample_data,
+        annotation_row = annotation_row_arg,
         annotation_colors = annotation_colors,
         annotation_names_col = FALSE,
+        annotation_names_row = FALSE,   # names shown via legends; avoids colliding with col labels
         annotation_legend = TRUE,
         legend = TRUE,
+        legend_breaks = c(-2, -1, 0, 1, 2),
+        legend_labels = c("-2 (low)", "-1", "0", "+1", "+2 (high)"),
         fontsize = FONTSIZE_LEGEND,
         fontsize_row = FONTSIZE_ROW,
         fontsize_col = FONTSIZE_COL,
-        cellwidth = 42,
-        cellheight = 42,
-        border_color = "grey80",
-        main = "TEAD family expression (TES vs Mock)",
-        angle_col = 45,
+        cellwidth = 52,
+        cellheight = 44,
+        border_color = "white",          # thin clean gridlines
+        main = "TEAD family expression  (row z-score, TES vs Mock)",
+        angle_col = 0,                   # short labels read better horizontal
         gaps_col = sum(is_ctrl),
         silent = TRUE
     )
@@ -217,12 +271,12 @@ save_pdf <- function(p, filename) {
 
 cat("\nWriting plots...\n")
 
-p_lab <- draw_heatmap(row_labels, TRUE)
+p_lab <- draw_heatmap(TRUE, annotation_row)
 save_png(p_lab, "plots/heatmap_tead_family.png")
 save_pdf(p_lab, "plots/heatmap_tead_family.pdf")
 
-# No-label variant (for figure assembly), matches existing convention
-p_nolab <- draw_heatmap(rep("", nrow(mat_scaled)), FALSE)
+# No-label variant (for figure assembly): clean cells, no row text/annotation
+p_nolab <- draw_heatmap(FALSE, NA)
 save_png(p_nolab, "plots/heatmap_tead_family_nolabel.png")
 save_pdf(p_nolab, "plots/heatmap_tead_family_nolabel.pdf")
 
